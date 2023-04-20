@@ -1,5 +1,5 @@
 sceneSetups:
-- path: Assets/Scenes/Final_IK_Setup1.unity
+- path: Assets/Scenes/VRIK (Animated Locomotion) Setup.unity
   isLoaded: 1
   isActive: 1
   isSubScene: 0
