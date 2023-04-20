@@ -5,7 +5,7 @@ m_ProjectFiles:
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
-      ticks: 638096908147019998
+      ticks: 638175589805027197
     m_Hash: 1976435901
   m_LockFileStatus:
     m_FilePath: D:/unity_z/Basic-XR-InteractionToolkit-Setup/2023Basic_XRITK_V2.3/Packages/packages-lock.json
@@ -13,7 +13,7 @@ m_ProjectFiles:
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
-      ticks: 638096908147019998
+      ticks: 638175589805027197
     m_Hash: 1148946063
 m_EmbeddedPackageManifests:
   m_ManifestsStatus: {}
@@ -105,6 +105,8 @@ m_ResolvedPackages:
     - 2.0.0-preview.21
     - 2.0.0-preview.22
     - 2.0.0
+    - 2.0.1
+    - 2.0.3
     - 2.1.0-preview.3
     - 2.1.0-preview.5
     - 2.1.0-preview.6
@@ -118,6 +120,8 @@ m_ResolvedPackages:
     - 2.0.0-preview.21
     - 2.0.0-preview.22
     - 2.0.0
+    - 2.0.1
+    - 2.0.3
     - 2.1.0-preview.3
     - 2.1.0-preview.5
     - 2.1.0-preview.6
@@ -225,11 +229,13 @@ m_ResolvedPackages:
     - 3.0.16
     - 3.0.17
     - 3.0.18
+    - 3.0.20
     compatible:
     - 3.0.16
     - 3.0.17
     - 3.0.18
-    verified: 3.0.18
+    - 3.0.20
+    verified: 3.0.20
   dependencies:
   - name: com.unity.ext.nunit
     version: 1.0.6
@@ -300,10 +306,12 @@ m_ResolvedPackages:
     - 2.0.15
     - 2.0.16
     - 2.0.17
+    - 2.0.18
     compatible:
     - 2.0.16
     - 2.0.17
-    verified: 2.0.17
+    - 2.0.18
+    verified: 2.0.18
   dependencies:
   - name: com.unity.test-framework
     version: 1.1.9
@@ -352,7 +360,7 @@ m_ResolvedPackages:
     email: 
     url: 
   category: 
-  type: 
+  type: asset
   description: Code editor integration for supporting Visual Studio Code as code
     editor for unity. Adds support for generating csproj files for intellisense purposes,
     auto discovery of installations, etc.
@@ -387,7 +395,7 @@ m_ResolvedPackages:
     isDefault: 1
     capabilities: 7
     configSource: 0
-  hideInEditor: 1
+  hideInEditor: 0
   isAssetStorePackage: 0
   datePublishedTicks: 637800255360000000
   documentationUrl: 
@@ -587,6 +595,8 @@ m_ResolvedPackages:
     - 1.3.0
     - 1.3.1
     - 1.3.2
+    - 1.3.3
+    - 1.3.4
     - 2.0.1-exp.1
     - 2.0.1-exp.2
     - 2.0.1-pre.12
@@ -597,6 +607,8 @@ m_ResolvedPackages:
     - 1.3.0
     - 1.3.1
     - 1.3.2
+    - 1.3.3
+    - 1.3.4
     - 2.0.1-exp.1
     - 2.0.1-exp.2
     - 2.0.1-pre.12
@@ -764,6 +776,7 @@ m_ResolvedPackages:
     - 3.2.0-pre.3
     - 3.2.0-pre.4
     - 4.0.0-pre.1
+    - 4.0.0-pre.2
     compatible:
     - 3.0.6
     - 3.2.0-pre.1
@@ -902,7 +915,11 @@ m_ResolvedPackages:
     - 1.7.0
     - 1.7.1
     - 1.7.2
+    - 1.7.3
+    - 1.7.4
     - 1.8.0
+    - 1.8.1
+    - 1.8.2
     compatible:
     - 1.6.4
     - 1.7.0-pre.1
@@ -910,7 +927,11 @@ m_ResolvedPackages:
     - 1.7.0
     - 1.7.1
     - 1.7.2
+    - 1.7.3
+    - 1.7.4
     - 1.8.0
+    - 1.8.1
+    - 1.8.2
     verified: 1.6.4
   dependencies:
   - name: com.unity.modules.director
@@ -1159,12 +1180,16 @@ m_ResolvedPackages:
     - 2.1.1
     - 2.2.0
     - 2.3.0-pre.1
+    - 2.3.0
+    - 2.3.1
     compatible:
     - 2.0.4
     - 2.1.0-pre.1
     - 2.1.1
     - 2.2.0
     - 2.3.0-pre.1
+    - 2.3.0
+    - 2.3.1
     verified: 2.0.4
   dependencies:
   - name: com.unity.inputsystem
@@ -1312,10 +1337,12 @@ m_ResolvedPackages:
     - 4.2.0
     - 4.2.1
     - 4.3.1
+    - 4.3.3
     compatible:
     - 4.2.0
     - 4.2.1
     - 4.3.1
+    - 4.3.3
     verified: 4.2.1
   dependencies:
   - name: com.unity.modules.subsystems
@@ -1410,9 +1437,11 @@ m_ResolvedPackages:
     - 1.5.1
     - 1.5.3
     - 1.6.0
+    - 1.7.0
     compatible:
     - 1.5.3
     - 1.6.0
+    - 1.7.0
     verified: 1.5.3
   dependencies:
   - name: com.unity.xr.management
@@ -3259,7 +3288,7 @@ m_ResolvedPackages:
     email: 
     url: 
   category: XR
-  type: 
+  type: asset
   description: This package includes the tracked pose driver for the legacy input
     system, the XR Bindings Seeding Tool and 3Dof Arm Model support for the Tracked
     Pose Driver. The Tracked Pose Driver is a behavior that enables GameObjects to
@@ -3328,7 +3357,7 @@ m_ResolvedPackages:
     isDefault: 1
     capabilities: 7
     configSource: 0
-  hideInEditor: 1
+  hideInEditor: 0
   isAssetStorePackage: 0
   datePublishedTicks: 637958908030000000
   documentationUrl: 
@@ -3398,8 +3427,12 @@ m_ResolvedPackages:
     - 1.4.2
     - 1.4.3
     - 1.4.4
+    - 1.5.0
+    - 1.5.1
     compatible:
     - 1.4.4
+    - 1.5.0
+    - 1.5.1
     verified: 1.4.4
   dependencies:
   - name: com.unity.modules.uielements
@@ -3482,6 +3515,7 @@ m_ResolvedPackages:
     - 2.1.1
     - 2.2.0-pre.1
     - 2.2.0-pre.2
+    - 2.2.0
     compatible:
     - 2.0.0
     - 2.0.1
@@ -3490,6 +3524,7 @@ m_ResolvedPackages:
     - 2.1.1
     - 2.2.0-pre.1
     - 2.2.0-pre.2
+    - 2.2.0
     verified: 2.0.1
   dependencies:
   - name: com.unity.modules.xr
@@ -3546,7 +3581,7 @@ m_ResolvedPackages:
     email: 
     url: 
   category: 
-  type: 
+  type: asset
   description: Unity's C# SIMD math library providing vector types and math functions
     with a shader like syntax.
   status: 0
@@ -3585,7 +3620,7 @@ m_ResolvedPackages:
     isDefault: 1
     capabilities: 7
     configSource: 0
-  hideInEditor: 1
+  hideInEditor: 0
   isAssetStorePackage: 0
   datePublishedTicks: 637841876140000000
   documentationUrl: 
@@ -3612,7 +3647,7 @@ m_ResolvedPackages:
     email: 
     url: 
   category: Libraries
-  type: 
+  type: asset
   description: Custom version of the nunit package build to work with Unity. Used
     by the Unity Test Framework.
   status: 0
@@ -3646,7 +3681,7 @@ m_ResolvedPackages:
     isDefault: 1
     capabilities: 7
     configSource: 0
-  hideInEditor: 1
+  hideInEditor: 0
   isAssetStorePackage: 0
   datePublishedTicks: 637429759280000000
   documentationUrl: 
@@ -3799,6 +3834,8 @@ m_ResolvedPackages:
     - 1.8.0
     - 1.8.1
     - 1.8.2
+    - 1.8.3
+    - 1.8.4
     compatible:
     - 1.6.6
     - 1.7.0-pre.1
@@ -3812,6 +3849,8 @@ m_ResolvedPackages:
     - 1.8.0
     - 1.8.1
     - 1.8.2
+    - 1.8.3
+    - 1.8.4
     verified: 1.6.6
   dependencies:
   - name: com.unity.mathematics
@@ -4218,9 +4257,15 @@ m_ResolvedPackages:
     - 1.5.2
     - 1.6.0
     - 1.7.0
+    - 1.7.1
+    - 1.8.1
+    - 1.8.2
     compatible:
     - 1.6.0
     - 1.7.0
+    - 1.7.1
+    - 1.8.1
+    - 1.8.2
     verified: 1.6.0
   dependencies:
   - name: com.unity.modules.unitywebrequest
@@ -4367,8 +4412,10 @@ m_ResolvedPackages:
     - 2.0.2
     - 3.0.1
     - 3.0.2
+    - 3.1.0
     compatible:
     - 3.0.2
+    - 3.1.0
     verified: 3.0.2
   dependencies: []
   resolvedDependencies: []
