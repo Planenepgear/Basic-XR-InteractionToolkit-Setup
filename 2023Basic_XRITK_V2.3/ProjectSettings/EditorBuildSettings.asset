@@ -12,6 +12,8 @@ EditorBuildSettings:
     path: Assets/Scenes/Trackers2.unity
     guid: a622fcc03c3f2e74187d8366292b3e54
   m_configObjects:
+    Unity.XR.Oculus.Settings: {fileID: 11400000, guid: 418839f37e01d4642a5dfabcd00ad835,
+      type: 2}
     com.unity.xr.management.loader_settings: {fileID: 11400000, guid: 8c5584e30a48e7247ab22474b3fcd367,
       type: 2}
     com.unity.xr.openxr.settings4: {fileID: 11400000, guid: 306af72ed532c9048a35bc1d34b20771,
