@@ -2922,18 +2922,6 @@ GameObject:
     type: 3}
   m_PrefabInstance: {fileID: 5275785901642584148}
   m_PrefabAsset: {fileID: 0}
---- !u!114 &613948131 stripped
-MonoBehaviour:
-  m_CorrespondingSourceObject: {fileID: 5275785902255475383, guid: 91ab377e07740cb4f9ee8e722106d42d,
-    type: 3}
-  m_PrefabInstance: {fileID: 5275785901642584148}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 613948130}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: bfac4fa329d1f4f23814af71a247c14b, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!4 &640360708 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 5275785902210199888, guid: 91ab377e07740cb4f9ee8e722106d42d,
@@ -3731,7 +3719,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   inputMode: 1
-  ik: {fileID: 613948131}
+  ik: {fileID: 7721883601051503653}
   centerEyeAnchor: {fileID: 1751794052}
   walkSpeed: 1.56
   runSpeed: 1.56
@@ -5774,6 +5762,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   m_TrackingType: 0
   m_UpdateType: 0
+  m_IgnoreTrackingState: 0
   m_PositionInput:
     m_UseReference: 1
     m_Action:
@@ -5816,6 +5805,18 @@ MonoBehaviour:
       m_Flags: 0
     m_Reference: {fileID: -530380113134220495, guid: c348712bda248c246b8c49b3db54643f,
       type: 3}
+  m_TrackingStateInput:
+    m_UseReference: 0
+    m_Action:
+      m_Name: 
+      m_Type: 0
+      m_ExpectedControlType: 
+      m_Id: 4bc02209-7357-497b-83ae-aba4333dc5da
+      m_Processors: 
+      m_Interactions: 
+      m_SingletonActionBindings: []
+      m_Flags: 0
+    m_Reference: {fileID: 0}
   m_PositionAction:
     m_Name: Position
     m_Type: 0
@@ -10366,6 +10367,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 686439521}
+  - {fileID: 7721883601051503650}
   m_Father: {fileID: 0}
   m_RootOrder: 8
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -10497,7 +10499,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2020338131}
   m_LocalRotation: {x: 0.5, y: -0.5, z: -0.5, w: 0.5}
-  m_LocalPosition: {x: 0, y: 0, z: -0.14}
+  m_LocalPosition: {x: 0, y: -0.16, z: -0.17}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -12003,6 +12005,7 @@ Animator:
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorStateOnDisable: 0
+  m_WriteDefaultValuesOnDisable: 0
 --- !u!137 &242504563588918151
 SkinnedMeshRenderer:
   m_ObjectHideFlags: 0
@@ -19935,6 +19938,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   m_TrackingType: 0
   m_UpdateType: 0
+  m_IgnoreTrackingState: 0
   m_PositionInput:
     m_UseReference: 1
     m_Action:
@@ -19977,6 +19981,18 @@ MonoBehaviour:
       m_Flags: 0
     m_Reference: {fileID: -530380113134220495, guid: c348712bda248c246b8c49b3db54643f,
       type: 3}
+  m_TrackingStateInput:
+    m_UseReference: 0
+    m_Action:
+      m_Name: 
+      m_Type: 0
+      m_ExpectedControlType: 
+      m_Id: d151e858-069e-4a30-8cea-5c858a98b0b1
+      m_Processors: 
+      m_Interactions: 
+      m_SingletonActionBindings: []
+      m_Flags: 0
+    m_Reference: {fileID: 0}
   m_PositionAction:
     m_Name: Position
     m_Type: 0
@@ -20244,8 +20260,8 @@ GameObject:
   - component: {fileID: 241764230792283591}
   - component: {fileID: 6119953306859560857}
   - component: {fileID: 7721883601051503653}
-  - component: {fileID: 7721883601051503652}
   - component: {fileID: 7721883601051503654}
+  - component: {fileID: 7721883601051503652}
   m_Layer: 0
   m_Name: man_doctor
   m_TagString: Untagged
@@ -24944,7 +24960,7 @@ PrefabInstance:
     - target: {fileID: 5275785902255475382, guid: 91ab377e07740cb4f9ee8e722106d42d,
         type: 3}
       propertyPath: m_IsActive
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 5275785902255475383, guid: 91ab377e07740cb4f9ee8e722106d42d,
         type: 3}
@@ -31652,7 +31668,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &7696548426153323251
 Transform:
   m_ObjectHideFlags: 0
@@ -31756,8 +31772,8 @@ Transform:
   m_Children:
   - {fileID: 2007575476050458848}
   - {fileID: 4076304883893746100}
-  m_Father: {fileID: 0}
-  m_RootOrder: 9
+  m_Father: {fileID: 1967485309}
+  m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &7721883601051503652
 MonoBehaviour:
@@ -31922,7 +31938,7 @@ MonoBehaviour:
         m_RotationOrder: 4
       useAnimatedBendNormal: 0
     locomotion:
-      mode: 0
+      mode: 1
       weight: 1
       moveThreshold: 0.3
       animationHeader: 0

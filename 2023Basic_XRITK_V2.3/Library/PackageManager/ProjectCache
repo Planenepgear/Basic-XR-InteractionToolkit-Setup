@@ -1,33 +1,33 @@
 m_ProjectFiles:
   m_ManifestFileStatus:
-    m_FilePath: D:/unity_z/Basic-XR-InteractionToolkit-Setup/2023Basic_XRITK_V2.3/Packages/manifest.json
+    m_FilePath: E:/unityVR/Basic-XR-InteractionToolkit-Setup1/2023Basic_XRITK_V2.3/Packages/manifest.json
     m_PathExists: 1
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
-      ticks: 638176501206136416
-    m_Hash: 1413682226
+      ticks: 638178541407990147
+    m_Hash: 253442562
   m_LockFileStatus:
-    m_FilePath: D:/unity_z/Basic-XR-InteractionToolkit-Setup/2023Basic_XRITK_V2.3/Packages/packages-lock.json
+    m_FilePath: E:/unityVR/Basic-XR-InteractionToolkit-Setup1/2023Basic_XRITK_V2.3/Packages/packages-lock.json
     m_PathExists: 1
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
-      ticks: 638176501206803567
-    m_Hash: 2754810830
+      ticks: 638178541914298117
+    m_Hash: 4238164089
 m_EmbeddedPackageManifests:
   m_ManifestsStatus: {}
 m_LocalPackages:
   m_LocalFileStatus: []
-m_ProjectPath: D:/unity_z/Basic-XR-InteractionToolkit-Setup/2023Basic_XRITK_V2.3/Packages
-m_EditorVersion: 2021.3.16f1 (4016570cf34f)
+m_ProjectPath: E:/unityVR/Basic-XR-InteractionToolkit-Setup1/2023Basic_XRITK_V2.3/Packages
+m_EditorVersion: 2021.3.20f1 (577897200b8b)
 m_ResolvedPackages:
 - packageId: com.unity.animation.rigging@1.1.1
   testable: 0
   isDirectDependency: 1
   version: 1.1.1
   source: 1
-  resolvedPath: D:\unity_z\Basic-XR-InteractionToolkit-Setup\2023Basic_XRITK_V2.3\Library\PackageCache\com.unity.animation.rigging@1.1.1
+  resolvedPath: E:\unityVR\Basic-XR-InteractionToolkit-Setup1\2023Basic_XRITK_V2.3\Library\PackageCache\com.unity.animation.rigging@1.1.1
   assetPath: Packages/com.unity.animation.rigging
   name: com.unity.animation.rigging
   displayName: Animation Rigging
@@ -108,12 +108,12 @@ m_ResolvedPackages:
   unityLifecycle:
     version: 1.1.1
     nextVersion: 
-- packageId: com.unity.collab-proxy@1.17.7
+- packageId: com.unity.collab-proxy@2.0.1
   testable: 0
   isDirectDependency: 1
-  version: 1.17.7
+  version: 2.0.1
   source: 1
-  resolvedPath: D:\unity_z\Basic-XR-InteractionToolkit-Setup\2023Basic_XRITK_V2.3\Library\PackageCache\com.unity.collab-proxy@1.17.7
+  resolvedPath: E:\unityVR\Basic-XR-InteractionToolkit-Setup1\2023Basic_XRITK_V2.3\Library\PackageCache\com.unity.collab-proxy@2.0.1
   assetPath: Packages/com.unity.collab-proxy
   name: com.unity.collab-proxy
   displayName: Version Control
@@ -123,10 +123,9 @@ m_ResolvedPackages:
     url: 
   category: Editor
   type: asset
-  description: The Version Control package gives you the ability to use either Collaborate
-    or Plastic SCM for Unity (beta) in the Unity editor. To use Plastic SCM for Unity
-    (beta), a Plastic SCM subscription is required. Learn more about how you can
-    get started for free by visiting plasticscm.com.
+  description: The package gives you the ability to use the Unity Version Control
+    in the Unity editor. To use Unity Version Control, a subscription is required.
+    Learn more about how you can get started for free by visiting plasticscm.com.
   status: 0
   errors: []
   versions:
@@ -198,34 +197,15 @@ m_ResolvedPackages:
     - 2.1.0-preview.5
     - 2.1.0-preview.6
     compatible:
-    - 1.17.7
-    - 2.0.0-preview.6
-    - 2.0.0-preview.8
-    - 2.0.0-preview.15
-    - 2.0.0-preview.17
-    - 2.0.0-preview.20
-    - 2.0.0-preview.21
-    - 2.0.0-preview.22
-    - 2.0.0
     - 2.0.1
     - 2.0.3
     - 2.0.4
     - 2.1.0-preview.3
     - 2.1.0-preview.5
     - 2.1.0-preview.6
-    verified: 1.17.7
-  dependencies:
-  - name: com.unity.services.core
-    version: 1.0.1
-  resolvedDependencies:
-  - name: com.unity.services.core
-    version: 1.6.0
-  - name: com.unity.modules.unitywebrequest
-    version: 1.0.0
-  - name: com.unity.nuget.newtonsoft-json
-    version: 3.0.2
-  - name: com.unity.modules.androidjni
-    version: 1.0.0
+    verified: 2.0.4
+  dependencies: []
+  resolvedDependencies: []
   keywords:
   - backup
   - cloud
@@ -233,6 +213,7 @@ m_ResolvedPackages:
   - collaborate
   - collaboration
   - control
+  - devops
   - plastic
   - plasticscm
   - source
@@ -250,23 +231,23 @@ m_ResolvedPackages:
     configSource: 0
   hideInEditor: 0
   isAssetStorePackage: 0
-  datePublishedTicks: 638036787040000000
-  documentationUrl: 
+  datePublishedTicks: 638125977010000000
+  documentationUrl: https://docs.unity3d.com/Packages/com.unity.collab-proxy@2.0/manual/index.html
   hasRepository: 1
   repository:
     type: git
     url: https://github.cds.internal.unity3d.com/unity/com.unity.cloud.collaborate.git
-    revision: 1641a631fd39029595decb52bdfb641b32ed194c
+    revision: 8740b4e630f877841cfa8e22ddfbcb237b70a9e6
     path: 
   unityLifecycle:
-    version: 1.17.7
+    version: 2.0.1
     nextVersion: 
-- packageId: com.unity.ide.rider@3.0.16
+- packageId: com.unity.ide.rider@3.0.18
   testable: 0
   isDirectDependency: 1
-  version: 3.0.16
+  version: 3.0.18
   source: 1
-  resolvedPath: D:\unity_z\Basic-XR-InteractionToolkit-Setup\2023Basic_XRITK_V2.3\Library\PackageCache\com.unity.ide.rider@3.0.16
+  resolvedPath: E:\unityVR\Basic-XR-InteractionToolkit-Setup1\2023Basic_XRITK_V2.3\Library\PackageCache\com.unity.ide.rider@3.0.18
   assetPath: Packages/com.unity.ide.rider
   name: com.unity.ide.rider
   displayName: JetBrains Rider Editor
@@ -320,8 +301,6 @@ m_ResolvedPackages:
     - 3.0.20
     - 3.0.21
     compatible:
-    - 3.0.16
-    - 3.0.17
     - 3.0.18
     - 3.0.20
     - 3.0.21
@@ -343,23 +322,23 @@ m_ResolvedPackages:
     configSource: 0
   hideInEditor: 0
   isAssetStorePackage: 0
-  datePublishedTicks: 638011833630000000
-  documentationUrl: 
+  datePublishedTicks: 638088746970000000
+  documentationUrl: https://docs.unity3d.com/Packages/com.unity.ide.rider@3.0/manual/index.html
   hasRepository: 1
   repository:
     type: git
     url: https://github.cds.internal.unity3d.com/unity/com.unity.ide.rider.git
-    revision: 9b718d58b8f7a34e564f2c79af6d2ca788e929d4
+    revision: b40b39e6834c2915637f431d002d1f3dd8ec9ce5
     path: 
   unityLifecycle:
-    version: 3.0.16
+    version: 3.0.18
     nextVersion: 
-- packageId: com.unity.ide.visualstudio@2.0.16
+- packageId: com.unity.ide.visualstudio@2.0.17
   testable: 0
   isDirectDependency: 1
-  version: 2.0.16
+  version: 2.0.17
   source: 1
-  resolvedPath: D:\unity_z\Basic-XR-InteractionToolkit-Setup\2023Basic_XRITK_V2.3\Library\PackageCache\com.unity.ide.visualstudio@2.0.16
+  resolvedPath: E:\unityVR\Basic-XR-InteractionToolkit-Setup1\2023Basic_XRITK_V2.3\Library\PackageCache\com.unity.ide.visualstudio@2.0.17
   assetPath: Packages/com.unity.ide.visualstudio
   name: com.unity.ide.visualstudio
   displayName: Visual Studio Editor
@@ -398,7 +377,6 @@ m_ResolvedPackages:
     - 2.0.17
     - 2.0.18
     compatible:
-    - 2.0.16
     - 2.0.17
     - 2.0.18
     verified: 2.0.18
@@ -425,23 +403,23 @@ m_ResolvedPackages:
     configSource: 0
   hideInEditor: 0
   isAssetStorePackage: 0
-  datePublishedTicks: 637914298680000000
-  documentationUrl: 
+  datePublishedTicks: 638059987360000000
+  documentationUrl: https://docs.unity3d.com/Packages/com.unity.ide.visualstudio@2.0/manual/index.html
   hasRepository: 1
   repository:
     type: git
     url: https://github.cds.internal.unity3d.com/unity/com.unity.ide.visualstudio.git
-    revision: c01855ef6461b821ab0226135e96a4ee86de96be
+    revision: 1f126893bfb18ea9661fb15771613e841467073c
     path: 
   unityLifecycle:
-    version: 2.0.16
+    version: 2.0.17
     nextVersion: 
 - packageId: com.unity.ide.vscode@1.2.5
   testable: 0
   isDirectDependency: 1
   version: 1.2.5
   source: 1
-  resolvedPath: D:\unity_z\Basic-XR-InteractionToolkit-Setup\2023Basic_XRITK_V2.3\Library\PackageCache\com.unity.ide.vscode@1.2.5
+  resolvedPath: E:\unityVR\Basic-XR-InteractionToolkit-Setup1\2023Basic_XRITK_V2.3\Library\PackageCache\com.unity.ide.vscode@1.2.5
   assetPath: Packages/com.unity.ide.vscode
   name: com.unity.ide.vscode
   displayName: Visual Studio Code Editor
@@ -498,12 +476,12 @@ m_ResolvedPackages:
   unityLifecycle:
     version: 1.2.5
     nextVersion: 
-- packageId: com.unity.render-pipelines.universal@12.1.8
+- packageId: com.unity.render-pipelines.universal@12.1.10
   testable: 0
   isDirectDependency: 1
-  version: 12.1.8
+  version: 12.1.10
   source: 2
-  resolvedPath: D:\unity_z\Basic-XR-InteractionToolkit-Setup\2023Basic_XRITK_V2.3\Library\PackageCache\com.unity.render-pipelines.universal@12.1.8
+  resolvedPath: E:\unityVR\Basic-XR-InteractionToolkit-Setup1\2023Basic_XRITK_V2.3\Library\PackageCache\com.unity.render-pipelines.universal@12.1.10
   assetPath: Packages/com.unity.render-pipelines.universal
   name: com.unity.render-pipelines.universal
   displayName: Universal RP
@@ -566,26 +544,26 @@ m_ResolvedPackages:
     - 10.9.0
     - 10.10.0
     - 10.10.1
-    - 12.1.8
+    - 12.1.10
     compatible:
-    - 12.1.8
-    verified: 12.1.8
+    - 12.1.10
+    verified: 12.1.10
   dependencies:
   - name: com.unity.mathematics
     version: 1.2.1
   - name: com.unity.burst
     version: 1.8.2
   - name: com.unity.render-pipelines.core
-    version: 12.1.8
+    version: 12.1.10
   - name: com.unity.shadergraph
-    version: 12.1.8
+    version: 12.1.10
   resolvedDependencies:
   - name: com.unity.mathematics
     version: 1.2.6
   - name: com.unity.burst
     version: 1.8.2
   - name: com.unity.render-pipelines.core
-    version: 12.1.8
+    version: 12.1.10
   - name: com.unity.ugui
     version: 1.0.0
   - name: com.unity.modules.ui
@@ -597,7 +575,7 @@ m_ResolvedPackages:
   - name: com.unity.modules.jsonserialize
     version: 1.0.0
   - name: com.unity.shadergraph
-    version: 12.1.8
+    version: 12.1.10
   - name: com.unity.searcher
     version: 4.9.1
   keywords:
@@ -626,14 +604,14 @@ m_ResolvedPackages:
     revision: 
     path: 
   unityLifecycle:
-    version: 12.1.8
+    version: 12.1.10
     nextVersion: 
 - packageId: com.unity.test-framework@1.1.31
   testable: 0
   isDirectDependency: 1
   version: 1.1.31
   source: 1
-  resolvedPath: D:\unity_z\Basic-XR-InteractionToolkit-Setup\2023Basic_XRITK_V2.3\Library\PackageCache\com.unity.test-framework@1.1.31
+  resolvedPath: E:\unityVR\Basic-XR-InteractionToolkit-Setup1\2023Basic_XRITK_V2.3\Library\PackageCache\com.unity.test-framework@1.1.31
   assetPath: Packages/com.unity.test-framework
   name: com.unity.test-framework
   displayName: Test Framework
@@ -747,7 +725,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 3.0.6
   source: 1
-  resolvedPath: D:\unity_z\Basic-XR-InteractionToolkit-Setup\2023Basic_XRITK_V2.3\Library\PackageCache\com.unity.textmeshpro@3.0.6
+  resolvedPath: E:\unityVR\Basic-XR-InteractionToolkit-Setup1\2023Basic_XRITK_V2.3\Library\PackageCache\com.unity.textmeshpro@3.0.6
   assetPath: Packages/com.unity.textmeshpro
   name: com.unity.textmeshpro
   displayName: TextMeshPro
@@ -916,7 +894,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.6.4
   source: 1
-  resolvedPath: D:\unity_z\Basic-XR-InteractionToolkit-Setup\2023Basic_XRITK_V2.3\Library\PackageCache\com.unity.timeline@1.6.4
+  resolvedPath: E:\unityVR\Basic-XR-InteractionToolkit-Setup1\2023Basic_XRITK_V2.3\Library\PackageCache\com.unity.timeline@1.6.4
   assetPath: Packages/com.unity.timeline
   name: com.unity.timeline
   displayName: Timeline
@@ -1073,7 +1051,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: D:\unity_z\Basic-XR-InteractionToolkit-Setup\2023Basic_XRITK_V2.3\Library\PackageCache\com.unity.ugui@1.0.0
+  resolvedPath: E:\unityVR\Basic-XR-InteractionToolkit-Setup1\2023Basic_XRITK_V2.3\Library\PackageCache\com.unity.ugui@1.0.0
   assetPath: Packages/com.unity.ugui
   name: com.unity.ugui
   displayName: Unity UI
@@ -1131,12 +1109,12 @@ m_ResolvedPackages:
   unityLifecycle:
     version: 1.0.0
     nextVersion: 
-- packageId: com.unity.visualscripting@1.7.8
+- packageId: com.unity.visualscripting@1.8.0
   testable: 0
   isDirectDependency: 1
-  version: 1.7.8
+  version: 1.8.0
   source: 1
-  resolvedPath: D:\unity_z\Basic-XR-InteractionToolkit-Setup\2023Basic_XRITK_V2.3\Library\PackageCache\com.unity.visualscripting@1.7.8
+  resolvedPath: E:\unityVR\Basic-XR-InteractionToolkit-Setup1\2023Basic_XRITK_V2.3\Library\PackageCache\com.unity.visualscripting@1.8.0
   assetPath: Packages/com.unity.visualscripting
   name: com.unity.visualscripting
   displayName: Visual Scripting
@@ -1180,9 +1158,8 @@ m_ResolvedPackages:
     - 1.8.0-pre.1
     - 1.8.0
     compatible:
-    - 1.7.8
     - 1.8.0
-    verified: 1.7.8
+    verified: 1.8.0
   dependencies:
   - name: com.unity.ugui
     version: 1.0.0
@@ -1208,23 +1185,23 @@ m_ResolvedPackages:
     configSource: 0
   hideInEditor: 1
   isAssetStorePackage: 0
-  datePublishedTicks: 637878097330000000
+  datePublishedTicks: 638060044680000000
   documentationUrl: 
   hasRepository: 1
   repository:
     type: git
     url: https://github.cds.internal.unity3d.com/unity/com.unity.visualscripting.git
-    revision: 775a560e6602f51ff05aca02264f8bed4d415fd3
+    revision: 0de66378b19e990494d98f39ecc2b6aa5ac65351
     path: 
   unityLifecycle:
-    version: 1.7.8
+    version: 1.8.0
     nextVersion: 
 - packageId: com.unity.xr.interaction.toolkit@2.3.0-pre.1
   testable: 0
   isDirectDependency: 1
   version: 2.3.0-pre.1
   source: 1
-  resolvedPath: D:\unity_z\Basic-XR-InteractionToolkit-Setup\2023Basic_XRITK_V2.3\Library\PackageCache\com.unity.xr.interaction.toolkit@2.3.0-pre.1
+  resolvedPath: E:\unityVR\Basic-XR-InteractionToolkit-Setup1\2023Basic_XRITK_V2.3\Library\PackageCache\com.unity.xr.interaction.toolkit@2.3.0-pre.1
   assetPath: Packages/com.unity.xr.interaction.toolkit
   name: com.unity.xr.interaction.toolkit
   displayName: XR Interaction Toolkit
@@ -1273,14 +1250,11 @@ m_ResolvedPackages:
     - 2.3.0
     - 2.3.1
     compatible:
-    - 2.0.4
-    - 2.1.0-pre.1
-    - 2.1.1
     - 2.2.0
     - 2.3.0-pre.1
     - 2.3.0
     - 2.3.1
-    verified: 2.0.4
+    verified: 2.2.0
   dependencies:
   - name: com.unity.inputsystem
     version: 1.4.4
@@ -1300,7 +1274,7 @@ m_ResolvedPackages:
     version: 1.2.6
   resolvedDependencies:
   - name: com.unity.inputsystem
-    version: 1.4.4
+    version: 1.5.0
   - name: com.unity.modules.uielements
     version: 1.0.0
   - name: com.unity.modules.ui
@@ -1353,14 +1327,14 @@ m_ResolvedPackages:
     revision: 94e87a568f8ce9aeebe5091e5d53d42c4deea64f
     path: 
   unityLifecycle:
-    version: 2.0.4
+    version: 2.2.0
     nextVersion: 
 - packageId: com.unity.xr.management@4.3.1
   testable: 0
   isDirectDependency: 1
   version: 4.3.1
   source: 1
-  resolvedPath: D:\unity_z\Basic-XR-InteractionToolkit-Setup\2023Basic_XRITK_V2.3\Library\PackageCache\com.unity.xr.management@4.3.1
+  resolvedPath: E:\unityVR\Basic-XR-InteractionToolkit-Setup1\2023Basic_XRITK_V2.3\Library\PackageCache\com.unity.xr.management@4.3.1
   assetPath: Packages/com.unity.xr.management
   name: com.unity.xr.management
   displayName: XR Plugin Management
@@ -1490,7 +1464,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 3.2.3
   source: 1
-  resolvedPath: D:\unity_z\Basic-XR-InteractionToolkit-Setup\2023Basic_XRITK_V2.3\Library\PackageCache\com.unity.xr.oculus@3.2.3
+  resolvedPath: E:\unityVR\Basic-XR-InteractionToolkit-Setup1\2023Basic_XRITK_V2.3\Library\PackageCache\com.unity.xr.oculus@3.2.3
   assetPath: Packages/com.unity.xr.oculus
   name: com.unity.xr.oculus
   displayName: Oculus XR Plugin
@@ -1631,12 +1605,12 @@ m_ResolvedPackages:
   unityLifecycle:
     version: 3.2.2
     nextVersion: 
-- packageId: com.unity.xr.openxr@1.5.3
+- packageId: com.unity.xr.openxr@1.6.0
   testable: 0
   isDirectDependency: 1
-  version: 1.5.3
+  version: 1.6.0
   source: 1
-  resolvedPath: D:\unity_z\Basic-XR-InteractionToolkit-Setup\2023Basic_XRITK_V2.3\Library\PackageCache\com.unity.xr.openxr@1.5.3
+  resolvedPath: E:\unityVR\Basic-XR-InteractionToolkit-Setup1\2023Basic_XRITK_V2.3\Library\PackageCache\com.unity.xr.openxr@1.6.0
   assetPath: Packages/com.unity.xr.openxr
   name: com.unity.xr.openxr
   displayName: OpenXR Plugin
@@ -1675,17 +1649,16 @@ m_ResolvedPackages:
     - 1.6.0
     - 1.7.0
     compatible:
-    - 1.5.3
     - 1.6.0
     - 1.7.0
-    verified: 1.5.3
+    verified: 1.6.0
   dependencies:
   - name: com.unity.xr.management
     version: 4.0.1
   - name: com.unity.xr.legacyinputhelpers
     version: 2.1.2
   - name: com.unity.inputsystem
-    version: 1.4.2
+    version: 1.4.4
   resolvedDependencies:
   - name: com.unity.xr.management
     version: 4.3.1
@@ -1702,7 +1675,7 @@ m_ResolvedPackages:
   - name: com.unity.xr.legacyinputhelpers
     version: 2.1.10
   - name: com.unity.inputsystem
-    version: 1.4.4
+    version: 1.5.0
   - name: com.unity.modules.uielements
     version: 1.0.0
   - name: com.unity.modules.ui
@@ -1726,23 +1699,23 @@ m_ResolvedPackages:
     configSource: 0
   hideInEditor: 0
   isAssetStorePackage: 0
-  datePublishedTicks: 638000767940000000
-  documentationUrl: 
+  datePublishedTicks: 638055006880000000
+  documentationUrl: https://docs.unity3d.com/Packages/com.unity.xr.openxr@1.6/manual/index.html
   hasRepository: 1
   repository:
     type: git
     url: https://github.cds.internal.unity3d.com/unity/xr.sdk.openxr.git
-    revision: f465b6468dde9034f804c326cd531c81dcb8e2c3
+    revision: e0ea9b26e3d27a43f8e54b4d93d561b0aa739d58
     path: 
   unityLifecycle:
-    version: 1.5.3
+    version: 1.6.0
     nextVersion: 
 - packageId: com.unity.modules.ai@1.0.0
   testable: 0
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: D:\unity_z\Basic-XR-InteractionToolkit-Setup\2023Basic_XRITK_V2.3\Library\PackageCache\com.unity.modules.ai@1.0.0
+  resolvedPath: E:\unityVR\Basic-XR-InteractionToolkit-Setup1\2023Basic_XRITK_V2.3\Library\PackageCache\com.unity.modules.ai@1.0.0
   assetPath: Packages/com.unity.modules.ai
   name: com.unity.modules.ai
   displayName: AI
@@ -1791,7 +1764,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: D:\unity_z\Basic-XR-InteractionToolkit-Setup\2023Basic_XRITK_V2.3\Library\PackageCache\com.unity.modules.androidjni@1.0.0
+  resolvedPath: E:\unityVR\Basic-XR-InteractionToolkit-Setup1\2023Basic_XRITK_V2.3\Library\PackageCache\com.unity.modules.androidjni@1.0.0
   assetPath: Packages/com.unity.modules.androidjni
   name: com.unity.modules.androidjni
   displayName: Android JNI
@@ -1839,7 +1812,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: D:\unity_z\Basic-XR-InteractionToolkit-Setup\2023Basic_XRITK_V2.3\Library\PackageCache\com.unity.modules.animation@1.0.0
+  resolvedPath: E:\unityVR\Basic-XR-InteractionToolkit-Setup1\2023Basic_XRITK_V2.3\Library\PackageCache\com.unity.modules.animation@1.0.0
   assetPath: Packages/com.unity.modules.animation
   name: com.unity.modules.animation
   displayName: Animation
@@ -1888,7 +1861,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: D:\unity_z\Basic-XR-InteractionToolkit-Setup\2023Basic_XRITK_V2.3\Library\PackageCache\com.unity.modules.assetbundle@1.0.0
+  resolvedPath: E:\unityVR\Basic-XR-InteractionToolkit-Setup1\2023Basic_XRITK_V2.3\Library\PackageCache\com.unity.modules.assetbundle@1.0.0
   assetPath: Packages/com.unity.modules.assetbundle
   name: com.unity.modules.assetbundle
   displayName: Asset Bundle
@@ -1937,7 +1910,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: D:\unity_z\Basic-XR-InteractionToolkit-Setup\2023Basic_XRITK_V2.3\Library\PackageCache\com.unity.modules.audio@1.0.0
+  resolvedPath: E:\unityVR\Basic-XR-InteractionToolkit-Setup1\2023Basic_XRITK_V2.3\Library\PackageCache\com.unity.modules.audio@1.0.0
   assetPath: Packages/com.unity.modules.audio
   name: com.unity.modules.audio
   displayName: Audio
@@ -1986,7 +1959,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: D:\unity_z\Basic-XR-InteractionToolkit-Setup\2023Basic_XRITK_V2.3\Library\PackageCache\com.unity.modules.cloth@1.0.0
+  resolvedPath: E:\unityVR\Basic-XR-InteractionToolkit-Setup1\2023Basic_XRITK_V2.3\Library\PackageCache\com.unity.modules.cloth@1.0.0
   assetPath: Packages/com.unity.modules.cloth
   name: com.unity.modules.cloth
   displayName: Cloth
@@ -2039,7 +2012,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: D:\unity_z\Basic-XR-InteractionToolkit-Setup\2023Basic_XRITK_V2.3\Library\PackageCache\com.unity.modules.director@1.0.0
+  resolvedPath: E:\unityVR\Basic-XR-InteractionToolkit-Setup1\2023Basic_XRITK_V2.3\Library\PackageCache\com.unity.modules.director@1.0.0
   assetPath: Packages/com.unity.modules.director
   name: com.unity.modules.director
   displayName: Director
@@ -2096,7 +2069,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: D:\unity_z\Basic-XR-InteractionToolkit-Setup\2023Basic_XRITK_V2.3\Library\PackageCache\com.unity.modules.imageconversion@1.0.0
+  resolvedPath: E:\unityVR\Basic-XR-InteractionToolkit-Setup1\2023Basic_XRITK_V2.3\Library\PackageCache\com.unity.modules.imageconversion@1.0.0
   assetPath: Packages/com.unity.modules.imageconversion
   name: com.unity.modules.imageconversion
   displayName: Image Conversion
@@ -2146,7 +2119,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: D:\unity_z\Basic-XR-InteractionToolkit-Setup\2023Basic_XRITK_V2.3\Library\PackageCache\com.unity.modules.imgui@1.0.0
+  resolvedPath: E:\unityVR\Basic-XR-InteractionToolkit-Setup1\2023Basic_XRITK_V2.3\Library\PackageCache\com.unity.modules.imgui@1.0.0
   assetPath: Packages/com.unity.modules.imgui
   name: com.unity.modules.imgui
   displayName: IMGUI
@@ -2195,7 +2168,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: D:\unity_z\Basic-XR-InteractionToolkit-Setup\2023Basic_XRITK_V2.3\Library\PackageCache\com.unity.modules.jsonserialize@1.0.0
+  resolvedPath: E:\unityVR\Basic-XR-InteractionToolkit-Setup1\2023Basic_XRITK_V2.3\Library\PackageCache\com.unity.modules.jsonserialize@1.0.0
   assetPath: Packages/com.unity.modules.jsonserialize
   name: com.unity.modules.jsonserialize
   displayName: JSONSerialize
@@ -2244,7 +2217,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: D:\unity_z\Basic-XR-InteractionToolkit-Setup\2023Basic_XRITK_V2.3\Library\PackageCache\com.unity.modules.particlesystem@1.0.0
+  resolvedPath: E:\unityVR\Basic-XR-InteractionToolkit-Setup1\2023Basic_XRITK_V2.3\Library\PackageCache\com.unity.modules.particlesystem@1.0.0
   assetPath: Packages/com.unity.modules.particlesystem
   name: com.unity.modules.particlesystem
   displayName: Particle System
@@ -2293,7 +2266,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: D:\unity_z\Basic-XR-InteractionToolkit-Setup\2023Basic_XRITK_V2.3\Library\PackageCache\com.unity.modules.physics@1.0.0
+  resolvedPath: E:\unityVR\Basic-XR-InteractionToolkit-Setup1\2023Basic_XRITK_V2.3\Library\PackageCache\com.unity.modules.physics@1.0.0
   assetPath: Packages/com.unity.modules.physics
   name: com.unity.modules.physics
   displayName: Physics
@@ -2342,7 +2315,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: D:\unity_z\Basic-XR-InteractionToolkit-Setup\2023Basic_XRITK_V2.3\Library\PackageCache\com.unity.modules.physics2d@1.0.0
+  resolvedPath: E:\unityVR\Basic-XR-InteractionToolkit-Setup1\2023Basic_XRITK_V2.3\Library\PackageCache\com.unity.modules.physics2d@1.0.0
   assetPath: Packages/com.unity.modules.physics2d
   name: com.unity.modules.physics2d
   displayName: Physics 2D
@@ -2391,7 +2364,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: D:\unity_z\Basic-XR-InteractionToolkit-Setup\2023Basic_XRITK_V2.3\Library\PackageCache\com.unity.modules.screencapture@1.0.0
+  resolvedPath: E:\unityVR\Basic-XR-InteractionToolkit-Setup1\2023Basic_XRITK_V2.3\Library\PackageCache\com.unity.modules.screencapture@1.0.0
   assetPath: Packages/com.unity.modules.screencapture
   name: com.unity.modules.screencapture
   displayName: Screen Capture
@@ -2444,7 +2417,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: D:\unity_z\Basic-XR-InteractionToolkit-Setup\2023Basic_XRITK_V2.3\Library\PackageCache\com.unity.modules.terrain@1.0.0
+  resolvedPath: E:\unityVR\Basic-XR-InteractionToolkit-Setup1\2023Basic_XRITK_V2.3\Library\PackageCache\com.unity.modules.terrain@1.0.0
   assetPath: Packages/com.unity.modules.terrain
   name: com.unity.modules.terrain
   displayName: Terrain
@@ -2493,7 +2466,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: D:\unity_z\Basic-XR-InteractionToolkit-Setup\2023Basic_XRITK_V2.3\Library\PackageCache\com.unity.modules.terrainphysics@1.0.0
+  resolvedPath: E:\unityVR\Basic-XR-InteractionToolkit-Setup1\2023Basic_XRITK_V2.3\Library\PackageCache\com.unity.modules.terrainphysics@1.0.0
   assetPath: Packages/com.unity.modules.terrainphysics
   name: com.unity.modules.terrainphysics
   displayName: Terrain Physics
@@ -2550,7 +2523,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: D:\unity_z\Basic-XR-InteractionToolkit-Setup\2023Basic_XRITK_V2.3\Library\PackageCache\com.unity.modules.tilemap@1.0.0
+  resolvedPath: E:\unityVR\Basic-XR-InteractionToolkit-Setup1\2023Basic_XRITK_V2.3\Library\PackageCache\com.unity.modules.tilemap@1.0.0
   assetPath: Packages/com.unity.modules.tilemap
   name: com.unity.modules.tilemap
   displayName: Tilemap
@@ -2602,7 +2575,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: D:\unity_z\Basic-XR-InteractionToolkit-Setup\2023Basic_XRITK_V2.3\Library\PackageCache\com.unity.modules.ui@1.0.0
+  resolvedPath: E:\unityVR\Basic-XR-InteractionToolkit-Setup1\2023Basic_XRITK_V2.3\Library\PackageCache\com.unity.modules.ui@1.0.0
   assetPath: Packages/com.unity.modules.ui
   name: com.unity.modules.ui
   displayName: UI
@@ -2651,7 +2624,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: D:\unity_z\Basic-XR-InteractionToolkit-Setup\2023Basic_XRITK_V2.3\Library\PackageCache\com.unity.modules.uielements@1.0.0
+  resolvedPath: E:\unityVR\Basic-XR-InteractionToolkit-Setup1\2023Basic_XRITK_V2.3\Library\PackageCache\com.unity.modules.uielements@1.0.0
   assetPath: Packages/com.unity.modules.uielements
   name: com.unity.modules.uielements
   displayName: UIElements
@@ -2716,7 +2689,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: D:\unity_z\Basic-XR-InteractionToolkit-Setup\2023Basic_XRITK_V2.3\Library\PackageCache\com.unity.modules.umbra@1.0.0
+  resolvedPath: E:\unityVR\Basic-XR-InteractionToolkit-Setup1\2023Basic_XRITK_V2.3\Library\PackageCache\com.unity.modules.umbra@1.0.0
   assetPath: Packages/com.unity.modules.umbra
   name: com.unity.modules.umbra
   displayName: Umbra
@@ -2765,7 +2738,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: D:\unity_z\Basic-XR-InteractionToolkit-Setup\2023Basic_XRITK_V2.3\Library\PackageCache\com.unity.modules.unityanalytics@1.0.0
+  resolvedPath: E:\unityVR\Basic-XR-InteractionToolkit-Setup1\2023Basic_XRITK_V2.3\Library\PackageCache\com.unity.modules.unityanalytics@1.0.0
   assetPath: Packages/com.unity.modules.unityanalytics
   name: com.unity.modules.unityanalytics
   displayName: Unity Analytics
@@ -2822,7 +2795,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: D:\unity_z\Basic-XR-InteractionToolkit-Setup\2023Basic_XRITK_V2.3\Library\PackageCache\com.unity.modules.unitywebrequest@1.0.0
+  resolvedPath: E:\unityVR\Basic-XR-InteractionToolkit-Setup1\2023Basic_XRITK_V2.3\Library\PackageCache\com.unity.modules.unitywebrequest@1.0.0
   assetPath: Packages/com.unity.modules.unitywebrequest
   name: com.unity.modules.unitywebrequest
   displayName: Unity Web Request
@@ -2871,7 +2844,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: D:\unity_z\Basic-XR-InteractionToolkit-Setup\2023Basic_XRITK_V2.3\Library\PackageCache\com.unity.modules.unitywebrequestassetbundle@1.0.0
+  resolvedPath: E:\unityVR\Basic-XR-InteractionToolkit-Setup1\2023Basic_XRITK_V2.3\Library\PackageCache\com.unity.modules.unitywebrequestassetbundle@1.0.0
   assetPath: Packages/com.unity.modules.unitywebrequestassetbundle
   name: com.unity.modules.unitywebrequestassetbundle
   displayName: Unity Web Request Asset Bundle
@@ -2928,7 +2901,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: D:\unity_z\Basic-XR-InteractionToolkit-Setup\2023Basic_XRITK_V2.3\Library\PackageCache\com.unity.modules.unitywebrequestaudio@1.0.0
+  resolvedPath: E:\unityVR\Basic-XR-InteractionToolkit-Setup1\2023Basic_XRITK_V2.3\Library\PackageCache\com.unity.modules.unitywebrequestaudio@1.0.0
   assetPath: Packages/com.unity.modules.unitywebrequestaudio
   name: com.unity.modules.unitywebrequestaudio
   displayName: Unity Web Request Audio
@@ -2985,7 +2958,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: D:\unity_z\Basic-XR-InteractionToolkit-Setup\2023Basic_XRITK_V2.3\Library\PackageCache\com.unity.modules.unitywebrequesttexture@1.0.0
+  resolvedPath: E:\unityVR\Basic-XR-InteractionToolkit-Setup1\2023Basic_XRITK_V2.3\Library\PackageCache\com.unity.modules.unitywebrequesttexture@1.0.0
   assetPath: Packages/com.unity.modules.unitywebrequesttexture
   name: com.unity.modules.unitywebrequesttexture
   displayName: Unity Web Request Texture
@@ -3042,7 +3015,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: D:\unity_z\Basic-XR-InteractionToolkit-Setup\2023Basic_XRITK_V2.3\Library\PackageCache\com.unity.modules.unitywebrequestwww@1.0.0
+  resolvedPath: E:\unityVR\Basic-XR-InteractionToolkit-Setup1\2023Basic_XRITK_V2.3\Library\PackageCache\com.unity.modules.unitywebrequestwww@1.0.0
   assetPath: Packages/com.unity.modules.unitywebrequestwww
   name: com.unity.modules.unitywebrequestwww
   displayName: Unity Web Request WWW
@@ -3115,7 +3088,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: D:\unity_z\Basic-XR-InteractionToolkit-Setup\2023Basic_XRITK_V2.3\Library\PackageCache\com.unity.modules.vehicles@1.0.0
+  resolvedPath: E:\unityVR\Basic-XR-InteractionToolkit-Setup1\2023Basic_XRITK_V2.3\Library\PackageCache\com.unity.modules.vehicles@1.0.0
   assetPath: Packages/com.unity.modules.vehicles
   name: com.unity.modules.vehicles
   displayName: Vehicles
@@ -3168,7 +3141,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: D:\unity_z\Basic-XR-InteractionToolkit-Setup\2023Basic_XRITK_V2.3\Library\PackageCache\com.unity.modules.video@1.0.0
+  resolvedPath: E:\unityVR\Basic-XR-InteractionToolkit-Setup1\2023Basic_XRITK_V2.3\Library\PackageCache\com.unity.modules.video@1.0.0
   assetPath: Packages/com.unity.modules.video
   name: com.unity.modules.video
   displayName: Video
@@ -3229,7 +3202,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: D:\unity_z\Basic-XR-InteractionToolkit-Setup\2023Basic_XRITK_V2.3\Library\PackageCache\com.unity.modules.vr@1.0.0
+  resolvedPath: E:\unityVR\Basic-XR-InteractionToolkit-Setup1\2023Basic_XRITK_V2.3\Library\PackageCache\com.unity.modules.vr@1.0.0
   assetPath: Packages/com.unity.modules.vr
   name: com.unity.modules.vr
   displayName: VR
@@ -3292,7 +3265,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: D:\unity_z\Basic-XR-InteractionToolkit-Setup\2023Basic_XRITK_V2.3\Library\PackageCache\com.unity.modules.wind@1.0.0
+  resolvedPath: E:\unityVR\Basic-XR-InteractionToolkit-Setup1\2023Basic_XRITK_V2.3\Library\PackageCache\com.unity.modules.wind@1.0.0
   assetPath: Packages/com.unity.modules.wind
   name: com.unity.modules.wind
   displayName: Wind
@@ -3341,7 +3314,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: D:\unity_z\Basic-XR-InteractionToolkit-Setup\2023Basic_XRITK_V2.3\Library\PackageCache\com.unity.modules.xr@1.0.0
+  resolvedPath: E:\unityVR\Basic-XR-InteractionToolkit-Setup1\2023Basic_XRITK_V2.3\Library\PackageCache\com.unity.modules.xr@1.0.0
   assetPath: Packages/com.unity.modules.xr
   name: com.unity.modules.xr
   displayName: XR
@@ -3402,7 +3375,7 @@ m_ResolvedPackages:
   isDirectDependency: 0
   version: 1.0.0
   source: 2
-  resolvedPath: D:\unity_z\Basic-XR-InteractionToolkit-Setup\2023Basic_XRITK_V2.3\Library\PackageCache\com.unity.modules.subsystems@1.0.0
+  resolvedPath: E:\unityVR\Basic-XR-InteractionToolkit-Setup1\2023Basic_XRITK_V2.3\Library\PackageCache\com.unity.modules.subsystems@1.0.0
   assetPath: Packages/com.unity.modules.subsystems
   name: com.unity.modules.subsystems
   displayName: Subsystems
@@ -3455,7 +3428,7 @@ m_ResolvedPackages:
   isDirectDependency: 0
   version: 1.0.0
   source: 2
-  resolvedPath: D:\unity_z\Basic-XR-InteractionToolkit-Setup\2023Basic_XRITK_V2.3\Library\PackageCache\com.unity.modules.uielementsnative@1.0.0
+  resolvedPath: E:\unityVR\Basic-XR-InteractionToolkit-Setup1\2023Basic_XRITK_V2.3\Library\PackageCache\com.unity.modules.uielementsnative@1.0.0
   assetPath: Packages/com.unity.modules.uielementsnative
   name: com.unity.modules.uielementsnative
   displayName: UIElements Native
@@ -3515,7 +3488,7 @@ m_ResolvedPackages:
   isDirectDependency: 0
   version: 2.1.10
   source: 1
-  resolvedPath: D:\unity_z\Basic-XR-InteractionToolkit-Setup\2023Basic_XRITK_V2.3\Library\PackageCache\com.unity.xr.legacyinputhelpers@2.1.10
+  resolvedPath: E:\unityVR\Basic-XR-InteractionToolkit-Setup1\2023Basic_XRITK_V2.3\Library\PackageCache\com.unity.xr.legacyinputhelpers@2.1.10
   assetPath: Packages/com.unity.xr.legacyinputhelpers
   name: com.unity.xr.legacyinputhelpers
   displayName: XR Legacy Input Helpers
@@ -3524,7 +3497,7 @@ m_ResolvedPackages:
     email: 
     url: 
   category: XR
-  type: asset
+  type: 
   description: This package includes the tracked pose driver for the legacy input
     system, the XR Bindings Seeding Tool and 3Dof Arm Model support for the Tracked
     Pose Driver. The Tracked Pose Driver is a behavior that enables GameObjects to
@@ -3593,7 +3566,7 @@ m_ResolvedPackages:
     isDefault: 1
     capabilities: 7
     configSource: 0
-  hideInEditor: 0
+  hideInEditor: 1
   isAssetStorePackage: 0
   datePublishedTicks: 637958908030000000
   documentationUrl: 
@@ -3606,12 +3579,12 @@ m_ResolvedPackages:
   unityLifecycle:
     version: 2.1.10
     nextVersion: 
-- packageId: com.unity.inputsystem@1.4.4
+- packageId: com.unity.inputsystem@1.5.0
   testable: 0
   isDirectDependency: 0
-  version: 1.4.4
+  version: 1.5.0
   source: 1
-  resolvedPath: D:\unity_z\Basic-XR-InteractionToolkit-Setup\2023Basic_XRITK_V2.3\Library\PackageCache\com.unity.inputsystem@1.4.4
+  resolvedPath: E:\unityVR\Basic-XR-InteractionToolkit-Setup1\2023Basic_XRITK_V2.3\Library\PackageCache\com.unity.inputsystem@1.5.0
   assetPath: Packages/com.unity.inputsystem
   name: com.unity.inputsystem
   displayName: Input System
@@ -3666,10 +3639,9 @@ m_ResolvedPackages:
     - 1.5.0
     - 1.5.1
     compatible:
-    - 1.4.4
     - 1.5.0
     - 1.5.1
-    verified: 1.4.4
+    verified: 1.5.1
   dependencies:
   - name: com.unity.modules.uielements
     version: 1.0.0
@@ -3703,23 +3675,23 @@ m_ResolvedPackages:
     configSource: 0
   hideInEditor: 0
   isAssetStorePackage: 0
-  datePublishedTicks: 638030660210000000
-  documentationUrl: 
+  datePublishedTicks: 638102370830000000
+  documentationUrl: https://docs.unity3d.com/Packages/com.unity.inputsystem@1.5/manual/index.html
   hasRepository: 1
   repository:
     type: git
     url: https://github.com/Unity-Technologies/InputSystem.git
-    revision: 59db7b7bcc31bad254947e3189e6ec125f67e3e7
+    revision: eb5279b52c65b1ba176b373a6ebf170fbc564273
     path: 
   unityLifecycle:
-    version: 1.4.4
+    version: 1.5.0
     nextVersion: 
 - packageId: com.unity.xr.core-utils@2.2.0-pre.2
   testable: 0
   isDirectDependency: 0
   version: 2.2.0-pre.2
   source: 1
-  resolvedPath: D:\unity_z\Basic-XR-InteractionToolkit-Setup\2023Basic_XRITK_V2.3\Library\PackageCache\com.unity.xr.core-utils@2.2.0-pre.2
+  resolvedPath: E:\unityVR\Basic-XR-InteractionToolkit-Setup1\2023Basic_XRITK_V2.3\Library\PackageCache\com.unity.xr.core-utils@2.2.0-pre.2
   assetPath: Packages/com.unity.xr.core-utils
   name: com.unity.xr.core-utils
   displayName: XR Core Utilities
@@ -3753,7 +3725,6 @@ m_ResolvedPackages:
     - 2.2.0-pre.2
     - 2.2.0
     compatible:
-    - 2.0.0
     - 2.0.1
     - 2.1.0-pre.1
     - 2.1.0
@@ -3801,14 +3772,14 @@ m_ResolvedPackages:
     revision: ebdc675d6b28897cab15446d3721a7cd3ff45430
     path: 
   unityLifecycle:
-    version: 2.0.0
+    version: 2.0.1
     nextVersion: 
 - packageId: com.unity.mathematics@1.2.6
   testable: 0
   isDirectDependency: 0
   version: 1.2.6
   source: 1
-  resolvedPath: D:\unity_z\Basic-XR-InteractionToolkit-Setup\2023Basic_XRITK_V2.3\Library\PackageCache\com.unity.mathematics@1.2.6
+  resolvedPath: E:\unityVR\Basic-XR-InteractionToolkit-Setup1\2023Basic_XRITK_V2.3\Library\PackageCache\com.unity.mathematics@1.2.6
   assetPath: Packages/com.unity.mathematics
   name: com.unity.mathematics
   displayName: Mathematics
@@ -3817,7 +3788,7 @@ m_ResolvedPackages:
     email: 
     url: 
   category: 
-  type: asset
+  type: 
   description: Unity's C# SIMD math library providing vector types and math functions
     with a shader like syntax.
   status: 0
@@ -3856,7 +3827,7 @@ m_ResolvedPackages:
     isDefault: 1
     capabilities: 7
     configSource: 0
-  hideInEditor: 0
+  hideInEditor: 1
   isAssetStorePackage: 0
   datePublishedTicks: 637841876140000000
   documentationUrl: 
@@ -3874,7 +3845,7 @@ m_ResolvedPackages:
   isDirectDependency: 0
   version: 1.0.6
   source: 1
-  resolvedPath: D:\unity_z\Basic-XR-InteractionToolkit-Setup\2023Basic_XRITK_V2.3\Library\PackageCache\com.unity.ext.nunit@1.0.6
+  resolvedPath: E:\unityVR\Basic-XR-InteractionToolkit-Setup1\2023Basic_XRITK_V2.3\Library\PackageCache\com.unity.ext.nunit@1.0.6
   assetPath: Packages/com.unity.ext.nunit
   name: com.unity.ext.nunit
   displayName: Custom NUnit
@@ -3935,7 +3906,7 @@ m_ResolvedPackages:
   isDirectDependency: 0
   version: 1.8.2
   source: 1
-  resolvedPath: D:\unity_z\Basic-XR-InteractionToolkit-Setup\2023Basic_XRITK_V2.3\Library\PackageCache\com.unity.burst@1.8.2
+  resolvedPath: E:\unityVR\Basic-XR-InteractionToolkit-Setup1\2023Basic_XRITK_V2.3\Library\PackageCache\com.unity.burst@1.8.2
   assetPath: Packages/com.unity.burst
   name: com.unity.burst
   displayName: Burst
@@ -4116,12 +4087,12 @@ m_ResolvedPackages:
   unityLifecycle:
     version: 1.6.6
     nextVersion: 
-- packageId: com.unity.render-pipelines.core@12.1.8
+- packageId: com.unity.render-pipelines.core@12.1.10
   testable: 0
   isDirectDependency: 0
-  version: 12.1.8
+  version: 12.1.10
   source: 2
-  resolvedPath: D:\unity_z\Basic-XR-InteractionToolkit-Setup\2023Basic_XRITK_V2.3\Library\PackageCache\com.unity.render-pipelines.core@12.1.8
+  resolvedPath: E:\unityVR\Basic-XR-InteractionToolkit-Setup1\2023Basic_XRITK_V2.3\Library\PackageCache\com.unity.render-pipelines.core@12.1.10
   assetPath: Packages/com.unity.render-pipelines.core
   name: com.unity.render-pipelines.core
   displayName: Core RP Library
@@ -4240,10 +4211,10 @@ m_ResolvedPackages:
     - 10.9.0
     - 10.10.0
     - 10.10.1
-    - 12.1.8
+    - 12.1.10
     compatible:
-    - 12.1.8
-    verified: 12.1.8
+    - 12.1.10
+    verified: 12.1.10
   dependencies:
   - name: com.unity.ugui
     version: 1.0.0
@@ -4282,14 +4253,14 @@ m_ResolvedPackages:
     revision: 
     path: 
   unityLifecycle:
-    version: 12.1.8
+    version: 12.1.10
     nextVersion: 
-- packageId: com.unity.shadergraph@12.1.8
+- packageId: com.unity.shadergraph@12.1.10
   testable: 0
   isDirectDependency: 0
-  version: 12.1.8
+  version: 12.1.10
   source: 2
-  resolvedPath: D:\unity_z\Basic-XR-InteractionToolkit-Setup\2023Basic_XRITK_V2.3\Library\PackageCache\com.unity.shadergraph@12.1.8
+  resolvedPath: E:\unityVR\Basic-XR-InteractionToolkit-Setup1\2023Basic_XRITK_V2.3\Library\PackageCache\com.unity.shadergraph@12.1.10
   assetPath: Packages/com.unity.shadergraph
   name: com.unity.shadergraph
   displayName: Shader Graph
@@ -4405,18 +4376,18 @@ m_ResolvedPackages:
     - 10.9.0
     - 10.10.0
     - 10.10.1
-    - 12.1.8
+    - 12.1.10
     compatible:
-    - 12.1.8
-    verified: 12.1.8
+    - 12.1.10
+    verified: 12.1.10
   dependencies:
   - name: com.unity.render-pipelines.core
-    version: 12.1.8
+    version: 12.1.10
   - name: com.unity.searcher
     version: 4.9.1
   resolvedDependencies:
   - name: com.unity.render-pipelines.core
-    version: 12.1.8
+    version: 12.1.10
   - name: com.unity.ugui
     version: 1.0.0
   - name: com.unity.modules.ui
@@ -4449,102 +4420,14 @@ m_ResolvedPackages:
     revision: 
     path: 
   unityLifecycle:
-    version: 12.1.8
-    nextVersion: 
-- packageId: com.unity.services.core@1.6.0
-  testable: 0
-  isDirectDependency: 0
-  version: 1.6.0
-  source: 1
-  resolvedPath: D:\unity_z\Basic-XR-InteractionToolkit-Setup\2023Basic_XRITK_V2.3\Library\PackageCache\com.unity.services.core@1.6.0
-  assetPath: Packages/com.unity.services.core
-  name: com.unity.services.core
-  displayName: Services Core
-  author:
-    name: 
-    email: 
-    url: 
-  category: 
-  type: asset
-  description: 'This package defines common components used by multiple Game Service
-    packages.
-
-    These are standardized and aim to unify the overall experience
-    of working with Game Services SDK.'
-  status: 0
-  errors: []
-  versions:
-    all:
-    - 1.0.1
-    - 1.1.0-pre.7
-    - 1.1.0-pre.8
-    - 1.1.0-pre.9
-    - 1.1.0-pre.10
-    - 1.1.0-pre.11
-    - 1.1.0-pre.41
-    - 1.1.0-pre.69
-    - 1.2.0
-    - 1.3.1
-    - 1.3.2
-    - 1.4.0
-    - 1.4.1
-    - 1.4.2
-    - 1.4.3
-    - 1.5.2
-    - 1.6.0
-    - 1.7.0
-    - 1.7.1
-    - 1.8.1
-    - 1.8.2
-    compatible:
-    - 1.6.0
-    - 1.7.0
-    - 1.7.1
-    - 1.8.1
-    - 1.8.2
-    verified: 1.6.0
-  dependencies:
-  - name: com.unity.modules.unitywebrequest
-    version: 1.0.0
-  - name: com.unity.nuget.newtonsoft-json
-    version: 3.0.2
-  - name: com.unity.modules.androidjni
-    version: 1.0.0
-  resolvedDependencies:
-  - name: com.unity.modules.unitywebrequest
-    version: 1.0.0
-  - name: com.unity.nuget.newtonsoft-json
-    version: 3.0.2
-  - name: com.unity.modules.androidjni
-    version: 1.0.0
-  keywords: []
-  registry:
-    id: main
-    name: 
-    url: https://packages.unity.com
-    scopes: []
-    isDefault: 1
-    capabilities: 7
-    configSource: 0
-  hideInEditor: 0
-  isAssetStorePackage: 0
-  datePublishedTicks: 638030857680000000
-  documentationUrl: 
-  hasRepository: 1
-  repository:
-    type: git
-    url: https://github.cds.internal.unity3d.com/unity/operate-services-sdk.git
-    revision: 815a0c96703c69956fde4fc798e35dd8d0cc3af1
-    path: 
-  unityLifecycle:
-    version: 1.6.0
+    version: 12.1.10
     nextVersion: 
 - packageId: com.unity.searcher@4.9.1
   testable: 0
   isDirectDependency: 0
   version: 4.9.1
   source: 1
-  resolvedPath: D:\unity_z\Basic-XR-InteractionToolkit-Setup\2023Basic_XRITK_V2.3\Library\PackageCache\com.unity.searcher@4.9.1
+  resolvedPath: E:\unityVR\Basic-XR-InteractionToolkit-Setup1\2023Basic_XRITK_V2.3\Library\PackageCache\com.unity.searcher@4.9.1
   assetPath: Packages/com.unity.searcher
   name: com.unity.searcher
   displayName: Searcher
@@ -4605,75 +4488,4 @@ m_ResolvedPackages:
     path: 
   unityLifecycle:
     version: 4.9.1
-    nextVersion: 
-- packageId: com.unity.nuget.newtonsoft-json@3.0.2
-  testable: 0
-  isDirectDependency: 0
-  version: 3.0.2
-  source: 1
-  resolvedPath: D:\unity_z\Basic-XR-InteractionToolkit-Setup\2023Basic_XRITK_V2.3\Library\PackageCache\com.unity.nuget.newtonsoft-json@3.0.2
-  assetPath: Packages/com.unity.nuget.newtonsoft-json
-  name: com.unity.nuget.newtonsoft-json
-  displayName: Newtonsoft Json
-  author:
-    name: 
-    email: 
-    url: 
-  category: 
-  type: library
-  description: 'Newtonsoft Json for use in Unity projects and Unity packages. Currently
-    synced to version 13.0.1.
-
-
-    This package is used for advanced json serialization
-    and deserialization. Most Unity users will be better suited using the existing
-    json tools built into Unity.
-
-    To avoid assembly clashes, please use this
-    package if you intend to use Newtonsoft Json.'
-  status: 0
-  errors: []
-  versions:
-    all:
-    - 1.0.0-preview.2
-    - 1.0.0-preview.3
-    - 1.0.0-preview.4
-    - 1.0.1-preview.1
-    - 1.1.2
-    - 2.0.0-preview
-    - 2.0.0-preview.1
-    - 2.0.0-preview.2
-    - 2.0.0
-    - 2.0.1-preview.1
-    - 2.0.2
-    - 3.0.1
-    - 3.0.2
-    - 3.1.0
-    compatible:
-    - 3.0.2
-    - 3.1.0
-    verified: 3.0.2
-  dependencies: []
-  resolvedDependencies: []
-  keywords: []
-  registry:
-    id: main
-    name: 
-    url: https://packages.unity.com
-    scopes: []
-    isDefault: 1
-    capabilities: 7
-    configSource: 0
-  hideInEditor: 1
-  isAssetStorePackage: 0
-  datePublishedTicks: 637846828220000000
-  documentationUrl: 
-  hasRepository: 1
-  repository:
-    type: git
-    url: https://github.cds.internal.unity3d.com/unity/com.unity.nuget.newtonsoft-json.git
-    revision: 8f66870a71ad3f2cdd46330b5c482dfd138ffc64
-    path: 
-  unityLifecycle:
-    version: 3.0.2
     nextVersion: 
