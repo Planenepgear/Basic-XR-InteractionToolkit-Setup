@@ -5,16 +5,16 @@ m_ProjectFiles:
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
-      ticks: 638186178934703775
-    m_Hash: 3277197287
+      ticks: 638186968701818125
+    m_Hash: 2379707227
   m_LockFileStatus:
     m_FilePath: D:/unity_z/Basic-XR-InteractionToolkit-Setup/2023Basic_XRITK_V2.3/Packages/packages-lock.json
     m_PathExists: 1
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
-      ticks: 638186179328322130
-    m_Hash: 2171259875
+      ticks: 638186968701868034
+    m_Hash: 4160643737
 m_EmbeddedPackageManifests:
   m_ManifestsStatus: {}
 m_LocalPackages:
