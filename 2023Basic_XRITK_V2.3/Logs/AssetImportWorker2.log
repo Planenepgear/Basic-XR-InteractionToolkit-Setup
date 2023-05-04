@@ -1,0 +1,1261 @@
+Using pre-set license
+Built from '2021.3/staging' branch; Version is '2021.3.20f1 (577897200b8b) revision 5732503'; Using compiler version '192829333'; Build Type 'Release'
+OS: 'Windows 10  (10.0.19044) 64bit Enterprise' Language: 'ko' Physical Memory: 16244 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\2021.3.20f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker2
+-projectPath
+D:/unity_z/Basic-XR-InteractionToolkit-Setup/2023Basic_XRITK_V2.3
+-logFile
+Logs/AssetImportWorker2.log
+-srvPort
+8710
+Successfully changed project path to: D:/unity_z/Basic-XR-InteractionToolkit-Setup/2023Basic_XRITK_V2.3
+D:/unity_z/Basic-XR-InteractionToolkit-Setup/2023Basic_XRITK_V2.3
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Player connection [8672] Host "[IP] 192.168.0.12 [Port] 0 [Flags] 2 [Guid] 3895433840 [EditorId] 3895433840 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-RI7L3NL) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+
+Player connection [8672] Host "[IP] 192.168.0.12 [Port] 0 [Flags] 2 [Guid] 3895433840 [EditorId] 3895433840 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-RI7L3NL) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+
+Refreshing native plugins compatible for Editor in 107.13 ms, found 13 plugins.
+Preloading 1 native plugins for Editor in 0.57 ms.
+Initialize engine version: 2021.3.20f1 (577897200b8b)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2021.3.20f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path D:/unity_z/Basic-XR-InteractionToolkit-Setup/2023Basic_XRITK_V2.3/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce RTX 2060 (ID=0x1f08)
+    Vendor:   NVIDIA
+    VRAM:     5980 MB
+    Driver:   31.0.15.1694
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2021.3.20f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2021.3.20f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2021.3.20f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56980
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.20f1/Editor/Data/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.20f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.006558 seconds.
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Android Extension - Scanning For ADB Devices 231 ms
+Refreshing native plugins compatible for Editor in 97.51 ms, found 13 plugins.
+Preloading 1 native plugins for Editor in 0.04 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.796 seconds
+Domain Reload Profiling:
+	ReloadAssembly (797ms)
+		BeginReloadAssembly (73ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (0ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (1ms)
+		EndReloadAssembly (636ms)
+			LoadAssemblies (71ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (85ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (21ms)
+			SetupLoadedEditorAssemblies (484ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (288ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (98ms)
+				BeforeProcessingInitializeOnLoad (1ms)
+				ProcessInitializeOnLoadAttributes (64ms)
+				ProcessInitializeOnLoadMethodAttributes (34ms)
+				AfterProcessingInitializeOnLoad (0ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (0ms)
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.006581 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file data-000001DD4AFD2C70 doesn't match image D:\unity_z\Basic-XR-InteractionToolkit-Setup\2023Basic_XRITK_V2.3\Library\ScriptAssemblies\Unity.InputSystem.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001DD4B0303B0 doesn't match image D:\unity_z\Basic-XR-InteractionToolkit-Setup\2023Basic_XRITK_V2.3\Library\ScriptAssemblies\Unity.XR.CoreUtils.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001DD473B7B90 doesn't match image D:\unity_z\Basic-XR-InteractionToolkit-Setup\2023Basic_XRITK_V2.3\Library\ScriptAssemblies\Unity.XR.Interaction.Toolkit.Samples.StarterAssets.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001DD4CB0AA50 doesn't match image D:\unity_z\Basic-XR-InteractionToolkit-Setup\2023Basic_XRITK_V2.3\Library\ScriptAssemblies\Unity.InputSystem.TestFramework.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001DD4CB0AA50 doesn't match image D:\unity_z\Basic-XR-InteractionToolkit-Setup\2023Basic_XRITK_V2.3\Library\ScriptAssemblies\Unity.VisualScripting.Flow.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001DD4CB43BB0 doesn't match image D:\unity_z\Basic-XR-InteractionToolkit-Setup\2023Basic_XRITK_V2.3\Library\ScriptAssemblies\Unity.XR.Hands.Samples.VisualizerSample.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001DD4CCA58A0 doesn't match image D:\unity_z\Basic-XR-InteractionToolkit-Setup\2023Basic_XRITK_V2.3\Library\ScriptAssemblies\Unity.XR.Interaction.Toolkit.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001DD4B2C4030 doesn't match image D:\unity_z\Basic-XR-InteractionToolkit-Setup\2023Basic_XRITK_V2.3\Library\ScriptAssemblies\Unity.XR.OpenXR.Features.MockRuntime.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001DD4CCA58A0 doesn't match image D:\unity_z\Basic-XR-InteractionToolkit-Setup\2023Basic_XRITK_V2.3\Library\ScriptAssemblies\Unity.RenderPipelines.Core.Runtime.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001DD4CCA58A0 doesn't match image D:\unity_z\Basic-XR-InteractionToolkit-Setup\2023Basic_XRITK_V2.3\Library\ScriptAssemblies\Unity.VisualScripting.Flow.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001DD47835B00 doesn't match image D:\unity_z\Basic-XR-InteractionToolkit-Setup\2023Basic_XRITK_V2.3\Library\ScriptAssemblies\Unity.VisualScripting.Core.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001DD47867390 doesn't match image D:\unity_z\Basic-XR-InteractionToolkit-Setup\2023Basic_XRITK_V2.3\Library\ScriptAssemblies\Unity.XR.OpenXR.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001DD478799A0 doesn't match image D:\unity_z\Basic-XR-InteractionToolkit-Setup\2023Basic_XRITK_V2.3\Library\ScriptAssemblies\Unity.XR.CoreUtils.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001DD478799A0 doesn't match image D:\unity_z\Basic-XR-InteractionToolkit-Setup\2023Basic_XRITK_V2.3\Library\ScriptAssemblies\UnityEditor.XR.LegacyInputHelpers.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001DD4B455C40 doesn't match image D:\unity_z\Basic-XR-InteractionToolkit-Setup\2023Basic_XRITK_V2.3\Library\ScriptAssemblies\Unity.XR.OpenXR.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001DD4E137F10 doesn't match image D:\unity_z\Basic-XR-InteractionToolkit-Setup\2023Basic_XRITK_V2.3\Library\ScriptAssemblies\Unity.XR.Interaction.Toolkit.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file LoadedFromMemory doesn't match image D:\unity_z\Basic-XR-InteractionToolkit-Setup\2023Basic_XRITK_V2.3\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Symbol file LoadedFromMemory doesn't match image D:\unity_z\Basic-XR-InteractionToolkit-Setup\2023Basic_XRITK_V2.3\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Refreshing native plugins compatible for Editor in 98.88 ms, found 13 plugins.
+Preloading 1 native plugins for Editor in 0.05 ms.
+Package Manager log level set to [2]
+Error saving file Library/StateCache/LayerSettings/9e/9ecc5c3c162a7aba29bafa64c8b94b7c.json. Error: System.IO.IOException: Sharing violation on path D:\unity_z\Basic-XR-InteractionToolkit-Setup\2023Basic_XRITK_V2.3\Library\StateCache\LayerSettings\9e\9ecc5c3c162a7aba29bafa64c8b94b7c.json
+  at System.IO.FileStream..ctor (System.String path, System.IO.FileMode mode, System.IO.FileAccess access, System.IO.FileShare share, System.Int32 bufferSize, System.Boolean anonymous, System.IO.FileOptions options) [0x0019e] in <88e4733ac7bc4ae1b496735e6b83bbd3>:0 
+  at System.IO.FileStream..ctor (System.String path, System.IO.FileMode mode, System.IO.FileAccess access, System.IO.FileShare share, System.Int32 bufferSize, System.IO.FileOptions options) [0x00000] in <88e4733ac7bc4ae1b496735e6b83bbd3>:0 
+  at (wrapper remoting-invoke-with-check) System.IO.FileStream..ctor(string,System.IO.FileMode,System.IO.FileAccess,System.IO.FileShare,int,System.IO.FileOptions)
+  at System.IO.StreamWriter..ctor (System.String path, System.Boolean append, System.Text.Encoding encoding, System.Int32 bufferSize) [0x00055] in <88e4733ac7bc4ae1b496735e6b83bbd3>:0 
+  at System.IO.StreamWriter..ctor (System.String path, System.Boolean append, System.Text.Encoding encoding) [0x00000] in <88e4733ac7bc4ae1b496735e6b83bbd3>:0 
+  at (wrapper remoting-invoke-with-check) System.IO.StreamWriter..ctor(string,bool,System.Text.Encoding)
+  at System.IO.File.WriteAllText (System.String path, System.String contents, System.Text.Encoding encoding) [0x00034] in <88e4733ac7bc4ae1b496735e6b83bbd3>:0 
+  at UnityEditor.StateCache`1[T].SetState (UnityEngine.Hash128 key, T obj) [0x0004b] in <6e08e61cfda04255b3972ba7f0515fae>:0 
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+UnityEditor.StateCache`1<UnityEditor.Tools/LayerSettings>:SetState (UnityEngine.Hash128,UnityEditor.Tools/LayerSettings)
+UnityEditor.Tools:set_lockedLayers (int)
+UnityEditor.Tools:OnEnable ()
+UnityEngine.ScriptableObject:CreateInstance (System.Type)
+UnityEngine.ScriptableObject:CreateInstance<UnityEditor.Tools> ()
+UnityEditor.Tools:get_get ()
+UnityEditor.Tools:get_visibleLayers ()
+UnityEditor.Animations.Rigging.BoneRendererUtils:.cctor () (at Library/PackageCache/com.unity.animation.rigging@1.1.1/Editor/Utils/BoneRendererUtils.cs:121)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+(Filename: Library/PackageCache/com.unity.animation.rigging@1.1.1/Editor/Utils/BoneRendererUtils.cs Line: 121)
+
+System.Reflection.TargetInvocationException: Exception has been thrown by the target of an invocation. ---> System.NullReferenceException: Object reference not set to an instance of an object
+  at Unity.XR.Oculus.OculusLoader.AssetPathToAbsolutePath (System.String assetPath) [0x0003d] in D:\unity_z\Basic-XR-InteractionToolkit-Setup\2023Basic_XRITK_V2.3\Library\PackageCache\com.unity.xr.oculus@3.2.3\Runtime\OculusLoader.cs:296 
+  at Unity.XR.Oculus.OculusLoader.EditorLoadOVRPlugin () [0x0007b] in D:\unity_z\Basic-XR-InteractionToolkit-Setup\2023Basic_XRITK_V2.3\Library\PackageCache\com.unity.xr.oculus@3.2.3\Runtime\OculusLoader.cs:281 
+  at (wrapper managed-to-native) System.Reflection.RuntimeMethodInfo.InternalInvoke(System.Reflection.RuntimeMethodInfo,object,object[],System.Exception&)
+  at System.Reflection.RuntimeMethodInfo.Invoke (System.Object obj, System.Reflection.BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x0006a] in <88e4733ac7bc4ae1b496735e6b83bbd3>:0 
+   --- End of inner exception stack trace ---
+  at System.Reflection.RuntimeMethodInfo.Invoke (System.Object obj, System.Reflection.BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x00083] in <88e4733ac7bc4ae1b496735e6b83bbd3>:0 
+  at System.Reflection.MethodBase.Invoke (System.Object obj, System.Object[] parameters) [0x00000] in <88e4733ac7bc4ae1b496735e6b83bbd3>:0 
+  at UnityEditor.EditorAssemblies.ProcessInitializeOnLoadMethodAttributes () [0x000a5] in <6e08e61cfda04255b3972ba7f0515fae>:0 
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadMethodAttributes ()
+
+Mono: successfully reloaded assembly
+- Completed reload, in  6.144 seconds
+Domain Reload Profiling:
+	ReloadAssembly (6144ms)
+		BeginReloadAssembly (100ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (4ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (16ms)
+		EndReloadAssembly (5953ms)
+			LoadAssemblies (4566ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (610ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (61ms)
+			SetupLoadedEditorAssemblies (680ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (13ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (99ms)
+				BeforeProcessingInitializeOnLoad (103ms)
+				ProcessInitializeOnLoadAttributes (370ms)
+				ProcessInitializeOnLoadMethodAttributes (86ms)
+				AfterProcessingInitializeOnLoad (8ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (9ms)
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.07 seconds
+Refreshing native plugins compatible for Editor in 1.00 ms, found 13 plugins.
+Preloading 1 native plugins for Editor in 0.05 ms.
+Unloading 6192 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 64 unused Assets / (0.7 MB). Loaded Objects now: 6651.
+Memory consumption went from 257.0 MB to 256.3 MB.
+Total: 3.434500 ms (FindLiveObjects: 0.427900 ms CreateObjectMapping: 0.223300 ms MarkObjects: 2.535600 ms  DeleteObjects: 0.246900 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 777750.804486 seconds.
+  path: Assets/Scenes
+  artifactKey: Guid(e0b991754686dfe44a785cbad7b1ab84) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes using Guid(e0b991754686dfe44a785cbad7b1ab84) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8236b8de61d5f358d315aa7184038cd1') in 0.014093 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.007319 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file data-000001DD4AFD2C70 doesn't match image D:\unity_z\Basic-XR-InteractionToolkit-Setup\2023Basic_XRITK_V2.3\Library\ScriptAssemblies\Unity.InputSystem.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001DD4CDC0010 doesn't match image D:\unity_z\Basic-XR-InteractionToolkit-Setup\2023Basic_XRITK_V2.3\Library\ScriptAssemblies\Unity.XR.CoreUtils.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001DD4B04B1A0 doesn't match image D:\unity_z\Basic-XR-InteractionToolkit-Setup\2023Basic_XRITK_V2.3\Library\ScriptAssemblies\Unity.XR.Interaction.Toolkit.Samples.StarterAssets.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001DD512A4240 doesn't match image D:\unity_z\Basic-XR-InteractionToolkit-Setup\2023Basic_XRITK_V2.3\Library\ScriptAssemblies\Unity.InputSystem.TestFramework.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001DD4FC16010 doesn't match image D:\unity_z\Basic-XR-InteractionToolkit-Setup\2023Basic_XRITK_V2.3\Library\ScriptAssemblies\Unity.VisualScripting.Flow.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001DD4C7E5420 doesn't match image D:\unity_z\Basic-XR-InteractionToolkit-Setup\2023Basic_XRITK_V2.3\Library\ScriptAssemblies\Unity.XR.Hands.Samples.VisualizerSample.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001DD4AF35190 doesn't match image D:\unity_z\Basic-XR-InteractionToolkit-Setup\2023Basic_XRITK_V2.3\Library\ScriptAssemblies\Unity.XR.Interaction.Toolkit.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001DD4B1DF860 doesn't match image D:\unity_z\Basic-XR-InteractionToolkit-Setup\2023Basic_XRITK_V2.3\Library\ScriptAssemblies\Unity.XR.OpenXR.Features.MockRuntime.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001DD4AF35190 doesn't match image D:\unity_z\Basic-XR-InteractionToolkit-Setup\2023Basic_XRITK_V2.3\Library\ScriptAssemblies\Unity.RenderPipelines.Core.Runtime.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001DD4AF35190 doesn't match image D:\unity_z\Basic-XR-InteractionToolkit-Setup\2023Basic_XRITK_V2.3\Library\ScriptAssemblies\Unity.VisualScripting.Flow.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001DD51977020 doesn't match image D:\unity_z\Basic-XR-InteractionToolkit-Setup\2023Basic_XRITK_V2.3\Library\ScriptAssemblies\Unity.VisualScripting.Core.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001DD4AF5DDB0 doesn't match image D:\unity_z\Basic-XR-InteractionToolkit-Setup\2023Basic_XRITK_V2.3\Library\ScriptAssemblies\Unity.XR.OpenXR.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001DD5123E020 doesn't match image D:\unity_z\Basic-XR-InteractionToolkit-Setup\2023Basic_XRITK_V2.3\Library\ScriptAssemblies\Unity.XR.CoreUtils.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001DD519B37C0 doesn't match image D:\unity_z\Basic-XR-InteractionToolkit-Setup\2023Basic_XRITK_V2.3\Library\ScriptAssemblies\UnityEditor.XR.LegacyInputHelpers.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001DD51260CD0 doesn't match image D:\unity_z\Basic-XR-InteractionToolkit-Setup\2023Basic_XRITK_V2.3\Library\ScriptAssemblies\Unity.XR.OpenXR.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001DD51260CD0 doesn't match image D:\unity_z\Basic-XR-InteractionToolkit-Setup\2023Basic_XRITK_V2.3\Library\ScriptAssemblies\Unity.XR.Interaction.Toolkit.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file LoadedFromMemory doesn't match image D:\unity_z\Basic-XR-InteractionToolkit-Setup\2023Basic_XRITK_V2.3\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Symbol file LoadedFromMemory doesn't match image D:\unity_z\Basic-XR-InteractionToolkit-Setup\2023Basic_XRITK_V2.3\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Refreshing native plugins compatible for Editor in 1.00 ms, found 13 plugins.
+Preloading 1 native plugins for Editor in 0.07 ms.
+System.Reflection.TargetInvocationException: Exception has been thrown by the target of an invocation. ---> System.NullReferenceException: Object reference not set to an instance of an object
+  at Unity.XR.Oculus.OculusLoader.AssetPathToAbsolutePath (System.String assetPath) [0x0003d] in D:\unity_z\Basic-XR-InteractionToolkit-Setup\2023Basic_XRITK_V2.3\Library\PackageCache\com.unity.xr.oculus@3.2.3\Runtime\OculusLoader.cs:296 
+  at Unity.XR.Oculus.OculusLoader.EditorLoadOVRPlugin () [0x0007b] in D:\unity_z\Basic-XR-InteractionToolkit-Setup\2023Basic_XRITK_V2.3\Library\PackageCache\com.unity.xr.oculus@3.2.3\Runtime\OculusLoader.cs:281 
+  at (wrapper managed-to-native) System.Reflection.RuntimeMethodInfo.InternalInvoke(System.Reflection.RuntimeMethodInfo,object,object[],System.Exception&)
+  at System.Reflection.RuntimeMethodInfo.Invoke (System.Object obj, System.Reflection.BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x0006a] in <88e4733ac7bc4ae1b496735e6b83bbd3>:0 
+   --- End of inner exception stack trace ---
+  at System.Reflection.RuntimeMethodInfo.Invoke (System.Object obj, System.Reflection.BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x00083] in <88e4733ac7bc4ae1b496735e6b83bbd3>:0 
+  at System.Reflection.MethodBase.Invoke (System.Object obj, System.Object[] parameters) [0x00000] in <88e4733ac7bc4ae1b496735e6b83bbd3>:0 
+  at UnityEditor.EditorAssemblies.ProcessInitializeOnLoadMethodAttributes () [0x000a5] in <6e08e61cfda04255b3972ba7f0515fae>:0 
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadMethodAttributes ()
+
+Mono: successfully reloaded assembly
+- Completed reload, in  1.065 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1066ms)
+		BeginReloadAssembly (124ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (4ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (34ms)
+		EndReloadAssembly (864ms)
+			LoadAssemblies (89ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (227ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (49ms)
+			SetupLoadedEditorAssemblies (445ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (17ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (77ms)
+				ProcessInitializeOnLoadAttributes (259ms)
+				ProcessInitializeOnLoadMethodAttributes (81ms)
+				AfterProcessingInitializeOnLoad (8ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (11ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 4.11 ms, found 13 plugins.
+Preloading 1 native plugins for Editor in 0.04 ms.
+Unloading 6045 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 55 unused Assets / (0.7 MB). Loaded Objects now: 6655.
+Memory consumption went from 250.1 MB to 249.4 MB.
+Total: 3.051800 ms (FindLiveObjects: 0.350600 ms CreateObjectMapping: 0.209100 ms MarkObjects: 2.248500 ms  DeleteObjects: 0.242800 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 443.907497 seconds.
+  path: Assets/Scenes/Hand Tracking Test.unity
+  artifactKey: Guid(011762611bdf3d6458ec9c24a40f3a98) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Hand Tracking Test.unity using Guid(011762611bdf3d6458ec9c24a40f3a98) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '45786c156814c81d26856eef14021103') in 0.018579 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 115.398558 seconds.
+  path: Assets/Samples/XR Hands/1.1.0/HandVisualizer/Prefabs/LeftHand Avatar.prefab
+  artifactKey: Guid(737f960df23885f4a8f1b4284ea68650) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Samples/XR Hands/1.1.0/HandVisualizer/Prefabs/LeftHand Avatar.prefab using Guid(737f960df23885f4a8f1b4284ea68650) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8d5c1b82804f40730eea040417da9c16') in 0.258305 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 6.507165 seconds.
+  path: Assets/Samples/XR Hands/1.1.0/HandVisualizer/Prefabs/Right Hand Avatar.prefab
+  artifactKey: Guid(ed396073653437d49ae2d81bef7fcdfb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Samples/XR Hands/1.1.0/HandVisualizer/Prefabs/Right Hand Avatar.prefab using Guid(ed396073653437d49ae2d81bef7fcdfb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e009ced7bc78625700389d7bfaf040a0') in 0.013718 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 9.190798 seconds.
+  path: Assets/Samples/XR Hands/1.1.0/HandVisualizer/Prefabs/LeftHand Avatar.prefab
+  artifactKey: Guid(737f960df23885f4a8f1b4284ea68650) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Samples/XR Hands/1.1.0/HandVisualizer/Prefabs/LeftHand Avatar.prefab using Guid(737f960df23885f4a8f1b4284ea68650) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'da281d4b870f81218b0887037a78e38f') in 0.022306 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 17.310395 seconds.
+  path: Assets/Samples/XR Hands/1.1.0/HandVisualizer/Prefabs/Right Hand Avatar.prefab
+  artifactKey: Guid(ed396073653437d49ae2d81bef7fcdfb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Samples/XR Hands/1.1.0/HandVisualizer/Prefabs/Right Hand Avatar.prefab using Guid(ed396073653437d49ae2d81bef7fcdfb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '388ee4ac1fc500f06c8ee548db2a4c3f') in 0.018759 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 356.199063 seconds.
+  path: Assets/Samples/XR Hands/1.1.0/HandVisualizer/Prefabs/LeftHand Avatar.prefab
+  artifactKey: Guid(737f960df23885f4a8f1b4284ea68650) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Samples/XR Hands/1.1.0/HandVisualizer/Prefabs/LeftHand Avatar.prefab using Guid(737f960df23885f4a8f1b4284ea68650) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c3498e91c8f710f8f1fa5628cc148106') in 0.011376 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.007362 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file data-000001DD73042660 doesn't match image D:\unity_z\Basic-XR-InteractionToolkit-Setup\2023Basic_XRITK_V2.3\Library\ScriptAssemblies\Unity.InputSystem.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001DD4C960F80 doesn't match image D:\unity_z\Basic-XR-InteractionToolkit-Setup\2023Basic_XRITK_V2.3\Library\ScriptAssemblies\Unity.XR.CoreUtils.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001DD73751A00 doesn't match image D:\unity_z\Basic-XR-InteractionToolkit-Setup\2023Basic_XRITK_V2.3\Library\ScriptAssemblies\Unity.XR.Interaction.Toolkit.Samples.StarterAssets.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001DD737BE860 doesn't match image D:\unity_z\Basic-XR-InteractionToolkit-Setup\2023Basic_XRITK_V2.3\Library\ScriptAssemblies\Unity.InputSystem.TestFramework.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001DD4E9D3020 doesn't match image D:\unity_z\Basic-XR-InteractionToolkit-Setup\2023Basic_XRITK_V2.3\Library\ScriptAssemblies\Unity.VisualScripting.Flow.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001DD4E0BCF20 doesn't match image D:\unity_z\Basic-XR-InteractionToolkit-Setup\2023Basic_XRITK_V2.3\Library\ScriptAssemblies\Unity.XR.Hands.Samples.VisualizerSample.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001DD72EF4D80 doesn't match image D:\unity_z\Basic-XR-InteractionToolkit-Setup\2023Basic_XRITK_V2.3\Library\ScriptAssemblies\Unity.XR.Interaction.Toolkit.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001DD4E9E6AC0 doesn't match image D:\unity_z\Basic-XR-InteractionToolkit-Setup\2023Basic_XRITK_V2.3\Library\ScriptAssemblies\Unity.XR.OpenXR.Features.MockRuntime.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001DD52A10020 doesn't match image D:\unity_z\Basic-XR-InteractionToolkit-Setup\2023Basic_XRITK_V2.3\Library\ScriptAssemblies\Unity.RenderPipelines.Core.Runtime.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001DD73CFB2E0 doesn't match image D:\unity_z\Basic-XR-InteractionToolkit-Setup\2023Basic_XRITK_V2.3\Library\ScriptAssemblies\Unity.VisualScripting.Flow.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001DD731E5250 doesn't match image D:\unity_z\Basic-XR-InteractionToolkit-Setup\2023Basic_XRITK_V2.3\Library\ScriptAssemblies\Unity.VisualScripting.Core.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001DD4E0BCF20 doesn't match image D:\unity_z\Basic-XR-InteractionToolkit-Setup\2023Basic_XRITK_V2.3\Library\ScriptAssemblies\Unity.XR.OpenXR.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001DD51953020 doesn't match image D:\unity_z\Basic-XR-InteractionToolkit-Setup\2023Basic_XRITK_V2.3\Library\ScriptAssemblies\Unity.XR.CoreUtils.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001DD4E0C0D90 doesn't match image D:\unity_z\Basic-XR-InteractionToolkit-Setup\2023Basic_XRITK_V2.3\Library\ScriptAssemblies\UnityEditor.XR.LegacyInputHelpers.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001DD50391A20 doesn't match image D:\unity_z\Basic-XR-InteractionToolkit-Setup\2023Basic_XRITK_V2.3\Library\ScriptAssemblies\Unity.XR.OpenXR.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001DD73E00010 doesn't match image D:\unity_z\Basic-XR-InteractionToolkit-Setup\2023Basic_XRITK_V2.3\Library\ScriptAssemblies\Unity.XR.Interaction.Toolkit.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file LoadedFromMemory doesn't match image D:\unity_z\Basic-XR-InteractionToolkit-Setup\2023Basic_XRITK_V2.3\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Symbol file LoadedFromMemory doesn't match image D:\unity_z\Basic-XR-InteractionToolkit-Setup\2023Basic_XRITK_V2.3\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Refreshing native plugins compatible for Editor in 1.14 ms, found 13 plugins.
+Preloading 1 native plugins for Editor in 0.08 ms.
+System.Reflection.TargetInvocationException: Exception has been thrown by the target of an invocation. ---> System.NullReferenceException: Object reference not set to an instance of an object
+  at Unity.XR.Oculus.OculusLoader.AssetPathToAbsolutePath (System.String assetPath) [0x0003d] in D:\unity_z\Basic-XR-InteractionToolkit-Setup\2023Basic_XRITK_V2.3\Library\PackageCache\com.unity.xr.oculus@3.2.3\Runtime\OculusLoader.cs:296 
+  at Unity.XR.Oculus.OculusLoader.EditorLoadOVRPlugin () [0x0007b] in D:\unity_z\Basic-XR-InteractionToolkit-Setup\2023Basic_XRITK_V2.3\Library\PackageCache\com.unity.xr.oculus@3.2.3\Runtime\OculusLoader.cs:281 
+  at (wrapper managed-to-native) System.Reflection.RuntimeMethodInfo.InternalInvoke(System.Reflection.RuntimeMethodInfo,object,object[],System.Exception&)
+  at System.Reflection.RuntimeMethodInfo.Invoke (System.Object obj, System.Reflection.BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x0006a] in <88e4733ac7bc4ae1b496735e6b83bbd3>:0 
+   --- End of inner exception stack trace ---
+  at System.Reflection.RuntimeMethodInfo.Invoke (System.Object obj, System.Reflection.BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x00083] in <88e4733ac7bc4ae1b496735e6b83bbd3>:0 
+  at System.Reflection.MethodBase.Invoke (System.Object obj, System.Object[] parameters) [0x00000] in <88e4733ac7bc4ae1b496735e6b83bbd3>:0 
+  at UnityEditor.EditorAssemblies.ProcessInitializeOnLoadMethodAttributes () [0x000a5] in <6e08e61cfda04255b3972ba7f0515fae>:0 
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadMethodAttributes ()
+
+Mono: successfully reloaded assembly
+- Completed reload, in  1.131 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1132ms)
+		BeginReloadAssembly (134ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (6ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (36ms)
+		EndReloadAssembly (915ms)
+			LoadAssemblies (95ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (247ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (38ms)
+			SetupLoadedEditorAssemblies (445ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (16ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (80ms)
+				ProcessInitializeOnLoadAttributes (254ms)
+				ProcessInitializeOnLoadMethodAttributes (84ms)
+				AfterProcessingInitializeOnLoad (9ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (19ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 6.98 ms, found 13 plugins.
+Preloading 1 native plugins for Editor in 0.08 ms.
+Unloading 6052 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 54 unused Assets / (0.7 MB). Loaded Objects now: 6713.
+Memory consumption went from 257.1 MB to 256.4 MB.
+Total: 3.494900 ms (FindLiveObjects: 0.367700 ms CreateObjectMapping: 0.230100 ms MarkObjects: 2.633400 ms  DeleteObjects: 0.262900 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.007093 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file data-000001DD73042660 doesn't match image D:\unity_z\Basic-XR-InteractionToolkit-Setup\2023Basic_XRITK_V2.3\Library\ScriptAssemblies\Unity.InputSystem.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001DD4AF2B920 doesn't match image D:\unity_z\Basic-XR-InteractionToolkit-Setup\2023Basic_XRITK_V2.3\Library\ScriptAssemblies\Unity.XR.CoreUtils.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001DD4EA08710 doesn't match image D:\unity_z\Basic-XR-InteractionToolkit-Setup\2023Basic_XRITK_V2.3\Library\ScriptAssemblies\Unity.XR.Interaction.Toolkit.Samples.StarterAssets.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001DDB6511640 doesn't match image D:\unity_z\Basic-XR-InteractionToolkit-Setup\2023Basic_XRITK_V2.3\Library\ScriptAssemblies\Unity.InputSystem.TestFramework.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001DD50645070 doesn't match image D:\unity_z\Basic-XR-InteractionToolkit-Setup\2023Basic_XRITK_V2.3\Library\ScriptAssemblies\Unity.VisualScripting.Flow.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001DD46D81020 doesn't match image D:\unity_z\Basic-XR-InteractionToolkit-Setup\2023Basic_XRITK_V2.3\Library\ScriptAssemblies\Unity.XR.Hands.Samples.VisualizerSample.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001DD7300C030 doesn't match image D:\unity_z\Basic-XR-InteractionToolkit-Setup\2023Basic_XRITK_V2.3\Library\ScriptAssemblies\Unity.XR.Interaction.Toolkit.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001DD46D81020 doesn't match image D:\unity_z\Basic-XR-InteractionToolkit-Setup\2023Basic_XRITK_V2.3\Library\ScriptAssemblies\Unity.XR.OpenXR.Features.MockRuntime.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001DD50C48020 doesn't match image D:\unity_z\Basic-XR-InteractionToolkit-Setup\2023Basic_XRITK_V2.3\Library\ScriptAssemblies\Unity.RenderPipelines.Core.Runtime.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001DD518CB700 doesn't match image D:\unity_z\Basic-XR-InteractionToolkit-Setup\2023Basic_XRITK_V2.3\Library\ScriptAssemblies\Unity.VisualScripting.Flow.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001DD512BBF40 doesn't match image D:\unity_z\Basic-XR-InteractionToolkit-Setup\2023Basic_XRITK_V2.3\Library\ScriptAssemblies\Unity.VisualScripting.Core.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001DD730C55F0 doesn't match image D:\unity_z\Basic-XR-InteractionToolkit-Setup\2023Basic_XRITK_V2.3\Library\ScriptAssemblies\Unity.XR.OpenXR.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001DD4D191980 doesn't match image D:\unity_z\Basic-XR-InteractionToolkit-Setup\2023Basic_XRITK_V2.3\Library\ScriptAssemblies\Unity.XR.CoreUtils.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001DDB6EB8020 doesn't match image D:\unity_z\Basic-XR-InteractionToolkit-Setup\2023Basic_XRITK_V2.3\Library\ScriptAssemblies\UnityEditor.XR.LegacyInputHelpers.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001DD4D38FE00 doesn't match image D:\unity_z\Basic-XR-InteractionToolkit-Setup\2023Basic_XRITK_V2.3\Library\ScriptAssemblies\Unity.XR.OpenXR.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001DD511B8020 doesn't match image D:\unity_z\Basic-XR-InteractionToolkit-Setup\2023Basic_XRITK_V2.3\Library\ScriptAssemblies\Unity.XR.Interaction.Toolkit.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file LoadedFromMemory doesn't match image D:\unity_z\Basic-XR-InteractionToolkit-Setup\2023Basic_XRITK_V2.3\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Symbol file LoadedFromMemory doesn't match image D:\unity_z\Basic-XR-InteractionToolkit-Setup\2023Basic_XRITK_V2.3\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Refreshing native plugins compatible for Editor in 1.16 ms, found 13 plugins.
+Preloading 1 native plugins for Editor in 0.08 ms.
+System.Reflection.TargetInvocationException: Exception has been thrown by the target of an invocation. ---> System.NullReferenceException: Object reference not set to an instance of an object
+  at Unity.XR.Oculus.OculusLoader.AssetPathToAbsolutePath (System.String assetPath) [0x0003d] in D:\unity_z\Basic-XR-InteractionToolkit-Setup\2023Basic_XRITK_V2.3\Library\PackageCache\com.unity.xr.oculus@3.2.3\Runtime\OculusLoader.cs:296 
+  at Unity.XR.Oculus.OculusLoader.EditorLoadOVRPlugin () [0x0007b] in D:\unity_z\Basic-XR-InteractionToolkit-Setup\2023Basic_XRITK_V2.3\Library\PackageCache\com.unity.xr.oculus@3.2.3\Runtime\OculusLoader.cs:281 
+  at (wrapper managed-to-native) System.Reflection.RuntimeMethodInfo.InternalInvoke(System.Reflection.RuntimeMethodInfo,object,object[],System.Exception&)
+  at System.Reflection.RuntimeMethodInfo.Invoke (System.Object obj, System.Reflection.BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x0006a] in <88e4733ac7bc4ae1b496735e6b83bbd3>:0 
+   --- End of inner exception stack trace ---
+  at System.Reflection.RuntimeMethodInfo.Invoke (System.Object obj, System.Reflection.BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x00083] in <88e4733ac7bc4ae1b496735e6b83bbd3>:0 
+  at System.Reflection.MethodBase.Invoke (System.Object obj, System.Object[] parameters) [0x00000] in <88e4733ac7bc4ae1b496735e6b83bbd3>:0 
+  at UnityEditor.EditorAssemblies.ProcessInitializeOnLoadMethodAttributes () [0x000a5] in <6e08e61cfda04255b3972ba7f0515fae>:0 
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadMethodAttributes ()
+
+Mono: successfully reloaded assembly
+- Completed reload, in  1.093 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1094ms)
+		BeginReloadAssembly (128ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (4ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (33ms)
+		EndReloadAssembly (878ms)
+			LoadAssemblies (99ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (246ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (46ms)
+			SetupLoadedEditorAssemblies (407ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (17ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (71ms)
+				ProcessInitializeOnLoadAttributes (235ms)
+				ProcessInitializeOnLoadMethodAttributes (73ms)
+				AfterProcessingInitializeOnLoad (8ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (15ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 4.12 ms, found 13 plugins.
+Preloading 1 native plugins for Editor in 0.04 ms.
+Unloading 6053 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 54 unused Assets / (0.7 MB). Loaded Objects now: 6718.
+Memory consumption went from 257.2 MB to 256.5 MB.
+Total: 3.031300 ms (FindLiveObjects: 0.335900 ms CreateObjectMapping: 0.196600 ms MarkObjects: 2.267700 ms  DeleteObjects: 0.230400 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.008492 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file data-000001DD73042660 doesn't match image D:\unity_z\Basic-XR-InteractionToolkit-Setup\2023Basic_XRITK_V2.3\Library\ScriptAssemblies\Unity.InputSystem.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001DD4AF2B920 doesn't match image D:\unity_z\Basic-XR-InteractionToolkit-Setup\2023Basic_XRITK_V2.3\Library\ScriptAssemblies\Unity.XR.CoreUtils.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001DD4EA08710 doesn't match image D:\unity_z\Basic-XR-InteractionToolkit-Setup\2023Basic_XRITK_V2.3\Library\ScriptAssemblies\Unity.XR.Interaction.Toolkit.Samples.StarterAssets.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001DD7310D3F0 doesn't match image D:\unity_z\Basic-XR-InteractionToolkit-Setup\2023Basic_XRITK_V2.3\Library\ScriptAssemblies\Unity.InputSystem.TestFramework.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001DD736EE300 doesn't match image D:\unity_z\Basic-XR-InteractionToolkit-Setup\2023Basic_XRITK_V2.3\Library\ScriptAssemblies\Unity.VisualScripting.Flow.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001DDB650B610 doesn't match image D:\unity_z\Basic-XR-InteractionToolkit-Setup\2023Basic_XRITK_V2.3\Library\ScriptAssemblies\Unity.XR.Hands.Samples.VisualizerSample.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001DD73B93010 doesn't match image D:\unity_z\Basic-XR-InteractionToolkit-Setup\2023Basic_XRITK_V2.3\Library\ScriptAssemblies\Unity.XR.Interaction.Toolkit.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001DD46D81020 doesn't match image D:\unity_z\Basic-XR-InteractionToolkit-Setup\2023Basic_XRITK_V2.3\Library\ScriptAssemblies\Unity.XR.OpenXR.Features.MockRuntime.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001DD4B8BF020 doesn't match image D:\unity_z\Basic-XR-InteractionToolkit-Setup\2023Basic_XRITK_V2.3\Library\ScriptAssemblies\Unity.RenderPipelines.Core.Runtime.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001DD511D5F90 doesn't match image D:\unity_z\Basic-XR-InteractionToolkit-Setup\2023Basic_XRITK_V2.3\Library\ScriptAssemblies\Unity.VisualScripting.Flow.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001DD51D1AF90 doesn't match image D:\unity_z\Basic-XR-InteractionToolkit-Setup\2023Basic_XRITK_V2.3\Library\ScriptAssemblies\Unity.VisualScripting.Core.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001DD4D38FE00 doesn't match image D:\unity_z\Basic-XR-InteractionToolkit-Setup\2023Basic_XRITK_V2.3\Library\ScriptAssemblies\Unity.XR.OpenXR.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001DD521D8010 doesn't match image D:\unity_z\Basic-XR-InteractionToolkit-Setup\2023Basic_XRITK_V2.3\Library\ScriptAssemblies\Unity.XR.CoreUtils.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001DDB650B610 doesn't match image D:\unity_z\Basic-XR-InteractionToolkit-Setup\2023Basic_XRITK_V2.3\Library\ScriptAssemblies\UnityEditor.XR.LegacyInputHelpers.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001DD4D38FE00 doesn't match image D:\unity_z\Basic-XR-InteractionToolkit-Setup\2023Basic_XRITK_V2.3\Library\ScriptAssemblies\Unity.XR.OpenXR.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001DD511B8020 doesn't match image D:\unity_z\Basic-XR-InteractionToolkit-Setup\2023Basic_XRITK_V2.3\Library\ScriptAssemblies\Unity.XR.Interaction.Toolkit.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file LoadedFromMemory doesn't match image D:\unity_z\Basic-XR-InteractionToolkit-Setup\2023Basic_XRITK_V2.3\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Symbol file LoadedFromMemory doesn't match image D:\unity_z\Basic-XR-InteractionToolkit-Setup\2023Basic_XRITK_V2.3\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Refreshing native plugins compatible for Editor in 0.99 ms, found 13 plugins.
+Preloading 1 native plugins for Editor in 0.07 ms.
+System.Reflection.TargetInvocationException: Exception has been thrown by the target of an invocation. ---> System.NullReferenceException: Object reference not set to an instance of an object
+  at Unity.XR.Oculus.OculusLoader.AssetPathToAbsolutePath (System.String assetPath) [0x0003d] in D:\unity_z\Basic-XR-InteractionToolkit-Setup\2023Basic_XRITK_V2.3\Library\PackageCache\com.unity.xr.oculus@3.2.3\Runtime\OculusLoader.cs:296 
+  at Unity.XR.Oculus.OculusLoader.EditorLoadOVRPlugin () [0x0007b] in D:\unity_z\Basic-XR-InteractionToolkit-Setup\2023Basic_XRITK_V2.3\Library\PackageCache\com.unity.xr.oculus@3.2.3\Runtime\OculusLoader.cs:281 
+  at (wrapper managed-to-native) System.Reflection.RuntimeMethodInfo.InternalInvoke(System.Reflection.RuntimeMethodInfo,object,object[],System.Exception&)
+  at System.Reflection.RuntimeMethodInfo.Invoke (System.Object obj, System.Reflection.BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x0006a] in <88e4733ac7bc4ae1b496735e6b83bbd3>:0 
+   --- End of inner exception stack trace ---
+  at System.Reflection.RuntimeMethodInfo.Invoke (System.Object obj, System.Reflection.BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x00083] in <88e4733ac7bc4ae1b496735e6b83bbd3>:0 
+  at System.Reflection.MethodBase.Invoke (System.Object obj, System.Object[] parameters) [0x00000] in <88e4733ac7bc4ae1b496735e6b83bbd3>:0 
+  at UnityEditor.EditorAssemblies.ProcessInitializeOnLoadMethodAttributes () [0x000a5] in <6e08e61cfda04255b3972ba7f0515fae>:0 
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadMethodAttributes ()
+
+Mono: successfully reloaded assembly
+- Completed reload, in  1.117 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1118ms)
+		BeginReloadAssembly (133ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (4ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (32ms)
+		EndReloadAssembly (902ms)
+			LoadAssemblies (99ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (245ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (46ms)
+			SetupLoadedEditorAssemblies (436ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (18ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (76ms)
+				ProcessInitializeOnLoadAttributes (242ms)
+				ProcessInitializeOnLoadMethodAttributes (89ms)
+				AfterProcessingInitializeOnLoad (10ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (17ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 5.14 ms, found 13 plugins.
+Preloading 1 native plugins for Editor in 0.04 ms.
+Unloading 6053 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 54 unused Assets / (0.7 MB). Loaded Objects now: 6723.
+Memory consumption went from 257.2 MB to 256.5 MB.
+Total: 3.453000 ms (FindLiveObjects: 0.323100 ms CreateObjectMapping: 0.190400 ms MarkObjects: 2.625000 ms  DeleteObjects: 0.313500 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.007497 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file data-000001DD73042660 doesn't match image D:\unity_z\Basic-XR-InteractionToolkit-Setup\2023Basic_XRITK_V2.3\Library\ScriptAssemblies\Unity.InputSystem.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001DD73243600 doesn't match image D:\unity_z\Basic-XR-InteractionToolkit-Setup\2023Basic_XRITK_V2.3\Library\ScriptAssemblies\Unity.XR.CoreUtils.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001DD4EA08710 doesn't match image D:\unity_z\Basic-XR-InteractionToolkit-Setup\2023Basic_XRITK_V2.3\Library\ScriptAssemblies\Unity.XR.Interaction.Toolkit.Samples.StarterAssets.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001DD7310D3F0 doesn't match image D:\unity_z\Basic-XR-InteractionToolkit-Setup\2023Basic_XRITK_V2.3\Library\ScriptAssemblies\Unity.InputSystem.TestFramework.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001DD4B0C5010 doesn't match image D:\unity_z\Basic-XR-InteractionToolkit-Setup\2023Basic_XRITK_V2.3\Library\ScriptAssemblies\Unity.VisualScripting.Flow.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001DDB650B610 doesn't match image D:\unity_z\Basic-XR-InteractionToolkit-Setup\2023Basic_XRITK_V2.3\Library\ScriptAssemblies\Unity.XR.Hands.Samples.VisualizerSample.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001DD50625050 doesn't match image D:\unity_z\Basic-XR-InteractionToolkit-Setup\2023Basic_XRITK_V2.3\Library\ScriptAssemblies\Unity.XR.Interaction.Toolkit.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001DDB650B610 doesn't match image D:\unity_z\Basic-XR-InteractionToolkit-Setup\2023Basic_XRITK_V2.3\Library\ScriptAssemblies\Unity.XR.OpenXR.Features.MockRuntime.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001DD4CAC1020 doesn't match image D:\unity_z\Basic-XR-InteractionToolkit-Setup\2023Basic_XRITK_V2.3\Library\ScriptAssemblies\Unity.RenderPipelines.Core.Runtime.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001DD4CAC1020 doesn't match image D:\unity_z\Basic-XR-InteractionToolkit-Setup\2023Basic_XRITK_V2.3\Library\ScriptAssemblies\Unity.VisualScripting.Flow.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001DDB6B21E30 doesn't match image D:\unity_z\Basic-XR-InteractionToolkit-Setup\2023Basic_XRITK_V2.3\Library\ScriptAssemblies\Unity.VisualScripting.Core.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001DD4D38FE00 doesn't match image D:\unity_z\Basic-XR-InteractionToolkit-Setup\2023Basic_XRITK_V2.3\Library\ScriptAssemblies\Unity.XR.OpenXR.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001DDB6318600 doesn't match image D:\unity_z\Basic-XR-InteractionToolkit-Setup\2023Basic_XRITK_V2.3\Library\ScriptAssemblies\Unity.XR.CoreUtils.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001DDB65048A0 doesn't match image D:\unity_z\Basic-XR-InteractionToolkit-Setup\2023Basic_XRITK_V2.3\Library\ScriptAssemblies\UnityEditor.XR.LegacyInputHelpers.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001DD4D38FE00 doesn't match image D:\unity_z\Basic-XR-InteractionToolkit-Setup\2023Basic_XRITK_V2.3\Library\ScriptAssemblies\Unity.XR.OpenXR.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001DD511B8020 doesn't match image D:\unity_z\Basic-XR-InteractionToolkit-Setup\2023Basic_XRITK_V2.3\Library\ScriptAssemblies\Unity.XR.Interaction.Toolkit.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file LoadedFromMemory doesn't match image D:\unity_z\Basic-XR-InteractionToolkit-Setup\2023Basic_XRITK_V2.3\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Symbol file LoadedFromMemory doesn't match image D:\unity_z\Basic-XR-InteractionToolkit-Setup\2023Basic_XRITK_V2.3\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Refreshing native plugins compatible for Editor in 1.07 ms, found 13 plugins.
+Preloading 1 native plugins for Editor in 0.10 ms.
+System.Reflection.TargetInvocationException: Exception has been thrown by the target of an invocation. ---> System.NullReferenceException: Object reference not set to an instance of an object
+  at Unity.XR.Oculus.OculusLoader.AssetPathToAbsolutePath (System.String assetPath) [0x0003d] in D:\unity_z\Basic-XR-InteractionToolkit-Setup\2023Basic_XRITK_V2.3\Library\PackageCache\com.unity.xr.oculus@3.2.3\Runtime\OculusLoader.cs:296 
+  at Unity.XR.Oculus.OculusLoader.EditorLoadOVRPlugin () [0x0007b] in D:\unity_z\Basic-XR-InteractionToolkit-Setup\2023Basic_XRITK_V2.3\Library\PackageCache\com.unity.xr.oculus@3.2.3\Runtime\OculusLoader.cs:281 
+  at (wrapper managed-to-native) System.Reflection.RuntimeMethodInfo.InternalInvoke(System.Reflection.RuntimeMethodInfo,object,object[],System.Exception&)
+  at System.Reflection.RuntimeMethodInfo.Invoke (System.Object obj, System.Reflection.BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x0006a] in <88e4733ac7bc4ae1b496735e6b83bbd3>:0 
+   --- End of inner exception stack trace ---
+  at System.Reflection.RuntimeMethodInfo.Invoke (System.Object obj, System.Reflection.BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x00083] in <88e4733ac7bc4ae1b496735e6b83bbd3>:0 
+  at System.Reflection.MethodBase.Invoke (System.Object obj, System.Object[] parameters) [0x00000] in <88e4733ac7bc4ae1b496735e6b83bbd3>:0 
+  at UnityEditor.EditorAssemblies.ProcessInitializeOnLoadMethodAttributes () [0x000a5] in <6e08e61cfda04255b3972ba7f0515fae>:0 
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadMethodAttributes ()
+
+Mono: successfully reloaded assembly
+- Completed reload, in  1.156 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1157ms)
+		BeginReloadAssembly (132ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (4ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (32ms)
+		EndReloadAssembly (936ms)
+			LoadAssemblies (98ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (277ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (47ms)
+			SetupLoadedEditorAssemblies (426ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (18ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (80ms)
+				ProcessInitializeOnLoadAttributes (234ms)
+				ProcessInitializeOnLoadMethodAttributes (84ms)
+				AfterProcessingInitializeOnLoad (8ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (17ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 4.22 ms, found 13 plugins.
+Preloading 1 native plugins for Editor in 0.04 ms.
+Unloading 6053 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 54 unused Assets / (0.7 MB). Loaded Objects now: 6728.
+Memory consumption went from 257.2 MB to 256.5 MB.
+Total: 3.327100 ms (FindLiveObjects: 0.368900 ms CreateObjectMapping: 0.214200 ms MarkObjects: 2.373800 ms  DeleteObjects: 0.369600 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 1243.450705 seconds.
+  path: Assets/Scripts/HandsAndControllersManagerV2.cs
+  artifactKey: Guid(67efb063ed3bfb140ab5cf2c48cb66bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/HandsAndControllersManagerV2.cs using Guid(67efb063ed3bfb140ab5cf2c48cb66bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd9e6c2bd2b385f479c8059b332bd2343') in 0.019995 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 4.790681 seconds.
+  path: Assets/Scripts/HTCViveControllerMod.cs
+  artifactKey: Guid(db5ba750a88b0cd459ba33f27bd70c03) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/HTCViveControllerMod.cs using Guid(db5ba750a88b0cd459ba33f27bd70c03) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c65c0719f3d00000309a037f26cb24b7') in 0.005871 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.839295 seconds.
+  path: Assets/Scripts/FindManager.cs
+  artifactKey: Guid(ac4e11b9899b6a74bb98668171b3acbf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/FindManager.cs using Guid(ac4e11b9899b6a74bb98668171b3acbf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '91fa9ebc42e37296cddbb764b92b1a3e') in 0.006500 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 79.755859 seconds.
+  path: Assets/Samples/XR Hands/1.1.0/HandVisualizer/Prefabs/Right Hand Avatar.prefab
+  artifactKey: Guid(ed396073653437d49ae2d81bef7fcdfb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Samples/XR Hands/1.1.0/HandVisualizer/Prefabs/Right Hand Avatar.prefab using Guid(ed396073653437d49ae2d81bef7fcdfb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '508ddb4c39cfed0c65850ffd5035a39a') in 0.149235 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.021434 seconds.
+  path: Assets/Samples/XR Hands/1.1.0/HandVisualizer/Prefabs/LeftHand Avatar.prefab
+  artifactKey: Guid(737f960df23885f4a8f1b4284ea68650) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Samples/XR Hands/1.1.0/HandVisualizer/Prefabs/LeftHand Avatar.prefab using Guid(737f960df23885f4a8f1b4284ea68650) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '48e38e96c3dca471903d56e48d3cd353') in 0.020755 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 69.674336 seconds.
+  path: Assets/Prefabs/LeftHand Avatar.prefab
+  artifactKey: Guid(737f960df23885f4a8f1b4284ea68650) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/LeftHand Avatar.prefab using Guid(737f960df23885f4a8f1b4284ea68650) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6c27b3855077996d3af5a1b5d694477a') in 0.010632 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 54.648963 seconds.
+  path: Assets/Prefabs/Right Hand Avatar.prefab
+  artifactKey: Guid(ed396073653437d49ae2d81bef7fcdfb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Right Hand Avatar.prefab using Guid(ed396073653437d49ae2d81bef7fcdfb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '74823b60b77e70429bc20e378d4d4c9e') in 0.010117 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.009130 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file data-000001DD73042660 doesn't match image D:\unity_z\Basic-XR-InteractionToolkit-Setup\2023Basic_XRITK_V2.3\Library\ScriptAssemblies\Unity.InputSystem.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001DD4D3DA010 doesn't match image D:\unity_z\Basic-XR-InteractionToolkit-Setup\2023Basic_XRITK_V2.3\Library\ScriptAssemblies\Unity.XR.CoreUtils.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001DD4716FEA0 doesn't match image D:\unity_z\Basic-XR-InteractionToolkit-Setup\2023Basic_XRITK_V2.3\Library\ScriptAssemblies\Unity.XR.Interaction.Toolkit.Samples.StarterAssets.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001DDB6EB8020 doesn't match image D:\unity_z\Basic-XR-InteractionToolkit-Setup\2023Basic_XRITK_V2.3\Library\ScriptAssemblies\Unity.InputSystem.TestFramework.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001DD4FC16010 doesn't match image D:\unity_z\Basic-XR-InteractionToolkit-Setup\2023Basic_XRITK_V2.3\Library\ScriptAssemblies\Unity.VisualScripting.Flow.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001DD46D81020 doesn't match image D:\unity_z\Basic-XR-InteractionToolkit-Setup\2023Basic_XRITK_V2.3\Library\ScriptAssemblies\Unity.XR.Hands.Samples.VisualizerSample.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001DD72EF4D80 doesn't match image D:\unity_z\Basic-XR-InteractionToolkit-Setup\2023Basic_XRITK_V2.3\Library\ScriptAssemblies\Unity.XR.Interaction.Toolkit.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001DD46D81020 doesn't match image D:\unity_z\Basic-XR-InteractionToolkit-Setup\2023Basic_XRITK_V2.3\Library\ScriptAssemblies\Unity.XR.OpenXR.Features.MockRuntime.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001DD4DFA5010 doesn't match image D:\unity_z\Basic-XR-InteractionToolkit-Setup\2023Basic_XRITK_V2.3\Library\ScriptAssemblies\Unity.RenderPipelines.Core.Runtime.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001DD73CFB2E0 doesn't match image D:\unity_z\Basic-XR-InteractionToolkit-Setup\2023Basic_XRITK_V2.3\Library\ScriptAssemblies\Unity.VisualScripting.Flow.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001DDB86E0080 doesn't match image D:\unity_z\Basic-XR-InteractionToolkit-Setup\2023Basic_XRITK_V2.3\Library\ScriptAssemblies\Unity.VisualScripting.Core.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001DD7353EAD0 doesn't match image D:\unity_z\Basic-XR-InteractionToolkit-Setup\2023Basic_XRITK_V2.3\Library\ScriptAssemblies\Unity.XR.OpenXR.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001DD73309630 doesn't match image D:\unity_z\Basic-XR-InteractionToolkit-Setup\2023Basic_XRITK_V2.3\Library\ScriptAssemblies\Unity.XR.CoreUtils.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001DDB63BAC90 doesn't match image D:\unity_z\Basic-XR-InteractionToolkit-Setup\2023Basic_XRITK_V2.3\Library\ScriptAssemblies\UnityEditor.XR.LegacyInputHelpers.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001DD73E12020 doesn't match image D:\unity_z\Basic-XR-InteractionToolkit-Setup\2023Basic_XRITK_V2.3\Library\ScriptAssemblies\Unity.XR.OpenXR.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001DD511B8020 doesn't match image D:\unity_z\Basic-XR-InteractionToolkit-Setup\2023Basic_XRITK_V2.3\Library\ScriptAssemblies\Unity.XR.Interaction.Toolkit.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file LoadedFromMemory doesn't match image D:\unity_z\Basic-XR-InteractionToolkit-Setup\2023Basic_XRITK_V2.3\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Symbol file LoadedFromMemory doesn't match image D:\unity_z\Basic-XR-InteractionToolkit-Setup\2023Basic_XRITK_V2.3\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Refreshing native plugins compatible for Editor in 1.83 ms, found 13 plugins.
+Preloading 1 native plugins for Editor in 0.13 ms.
+System.Reflection.TargetInvocationException: Exception has been thrown by the target of an invocation. ---> System.NullReferenceException: Object reference not set to an instance of an object
+  at Unity.XR.Oculus.OculusLoader.AssetPathToAbsolutePath (System.String assetPath) [0x0003d] in D:\unity_z\Basic-XR-InteractionToolkit-Setup\2023Basic_XRITK_V2.3\Library\PackageCache\com.unity.xr.oculus@3.2.3\Runtime\OculusLoader.cs:296 
+  at Unity.XR.Oculus.OculusLoader.EditorLoadOVRPlugin () [0x0007b] in D:\unity_z\Basic-XR-InteractionToolkit-Setup\2023Basic_XRITK_V2.3\Library\PackageCache\com.unity.xr.oculus@3.2.3\Runtime\OculusLoader.cs:281 
+  at (wrapper managed-to-native) System.Reflection.RuntimeMethodInfo.InternalInvoke(System.Reflection.RuntimeMethodInfo,object,object[],System.Exception&)
+  at System.Reflection.RuntimeMethodInfo.Invoke (System.Object obj, System.Reflection.BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x0006a] in <88e4733ac7bc4ae1b496735e6b83bbd3>:0 
+   --- End of inner exception stack trace ---
+  at System.Reflection.RuntimeMethodInfo.Invoke (System.Object obj, System.Reflection.BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x00083] in <88e4733ac7bc4ae1b496735e6b83bbd3>:0 
+  at System.Reflection.MethodBase.Invoke (System.Object obj, System.Object[] parameters) [0x00000] in <88e4733ac7bc4ae1b496735e6b83bbd3>:0 
+  at UnityEditor.EditorAssemblies.ProcessInitializeOnLoadMethodAttributes () [0x000a5] in <6e08e61cfda04255b3972ba7f0515fae>:0 
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadMethodAttributes ()
+
+Mono: successfully reloaded assembly
+- Completed reload, in  1.159 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1160ms)
+		BeginReloadAssembly (132ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (6ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (36ms)
+		EndReloadAssembly (941ms)
+			LoadAssemblies (97ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (258ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (39ms)
+			SetupLoadedEditorAssemblies (462ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (20ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (2ms)
+				BeforeProcessingInitializeOnLoad (75ms)
+				ProcessInitializeOnLoadAttributes (263ms)
+				ProcessInitializeOnLoadMethodAttributes (92ms)
+				AfterProcessingInitializeOnLoad (10ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (19ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 4.73 ms, found 13 plugins.
+Preloading 1 native plugins for Editor in 0.05 ms.
+Unloading 6052 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 54 unused Assets / (0.7 MB). Loaded Objects now: 6773.
+Memory consumption went from 257.2 MB to 256.5 MB.
+Total: 3.234500 ms (FindLiveObjects: 0.364500 ms CreateObjectMapping: 0.211900 ms MarkObjects: 2.375500 ms  DeleteObjects: 0.281700 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.010183 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file data-000001DD73042660 doesn't match image D:\unity_z\Basic-XR-InteractionToolkit-Setup\2023Basic_XRITK_V2.3\Library\ScriptAssemblies\Unity.InputSystem.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001DD4E0BC030 doesn't match image D:\unity_z\Basic-XR-InteractionToolkit-Setup\2023Basic_XRITK_V2.3\Library\ScriptAssemblies\Unity.XR.CoreUtils.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001DDB6180070 doesn't match image D:\unity_z\Basic-XR-InteractionToolkit-Setup\2023Basic_XRITK_V2.3\Library\ScriptAssemblies\Unity.XR.Interaction.Toolkit.Samples.StarterAssets.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001DD737EEC50 doesn't match image D:\unity_z\Basic-XR-InteractionToolkit-Setup\2023Basic_XRITK_V2.3\Library\ScriptAssemblies\Unity.InputSystem.TestFramework.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001DD4FC16010 doesn't match image D:\unity_z\Basic-XR-InteractionToolkit-Setup\2023Basic_XRITK_V2.3\Library\ScriptAssemblies\Unity.VisualScripting.Flow.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001DD4E9B9050 doesn't match image D:\unity_z\Basic-XR-InteractionToolkit-Setup\2023Basic_XRITK_V2.3\Library\ScriptAssemblies\Unity.XR.Hands.Samples.VisualizerSample.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001DDB6B21E30 doesn't match image D:\unity_z\Basic-XR-InteractionToolkit-Setup\2023Basic_XRITK_V2.3\Library\ScriptAssemblies\Unity.XR.Interaction.Toolkit.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001DD4E9B9050 doesn't match image D:\unity_z\Basic-XR-InteractionToolkit-Setup\2023Basic_XRITK_V2.3\Library\ScriptAssemblies\Unity.XR.OpenXR.Features.MockRuntime.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001DD4DFA5010 doesn't match image D:\unity_z\Basic-XR-InteractionToolkit-Setup\2023Basic_XRITK_V2.3\Library\ScriptAssemblies\Unity.RenderPipelines.Core.Runtime.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001DD52977E60 doesn't match image D:\unity_z\Basic-XR-InteractionToolkit-Setup\2023Basic_XRITK_V2.3\Library\ScriptAssemblies\Unity.VisualScripting.Flow.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001DD4784C010 doesn't match image D:\unity_z\Basic-XR-InteractionToolkit-Setup\2023Basic_XRITK_V2.3\Library\ScriptAssemblies\Unity.VisualScripting.Core.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001DD7353EAD0 doesn't match image D:\unity_z\Basic-XR-InteractionToolkit-Setup\2023Basic_XRITK_V2.3\Library\ScriptAssemblies\Unity.XR.OpenXR.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001DD73309630 doesn't match image D:\unity_z\Basic-XR-InteractionToolkit-Setup\2023Basic_XRITK_V2.3\Library\ScriptAssemblies\Unity.XR.CoreUtils.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001DD46D81020 doesn't match image D:\unity_z\Basic-XR-InteractionToolkit-Setup\2023Basic_XRITK_V2.3\Library\ScriptAssemblies\UnityEditor.XR.LegacyInputHelpers.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001DD73E12020 doesn't match image D:\unity_z\Basic-XR-InteractionToolkit-Setup\2023Basic_XRITK_V2.3\Library\ScriptAssemblies\Unity.XR.OpenXR.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001DD737911C0 doesn't match image D:\unity_z\Basic-XR-InteractionToolkit-Setup\2023Basic_XRITK_V2.3\Library\ScriptAssemblies\Unity.XR.Interaction.Toolkit.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file LoadedFromMemory doesn't match image D:\unity_z\Basic-XR-InteractionToolkit-Setup\2023Basic_XRITK_V2.3\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Symbol file LoadedFromMemory doesn't match image D:\unity_z\Basic-XR-InteractionToolkit-Setup\2023Basic_XRITK_V2.3\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Refreshing native plugins compatible for Editor in 1.26 ms, found 13 plugins.
+Preloading 1 native plugins for Editor in 0.07 ms.
+System.Reflection.TargetInvocationException: Exception has been thrown by the target of an invocation. ---> System.NullReferenceException: Object reference not set to an instance of an object
+  at Unity.XR.Oculus.OculusLoader.AssetPathToAbsolutePath (System.String assetPath) [0x0003d] in D:\unity_z\Basic-XR-InteractionToolkit-Setup\2023Basic_XRITK_V2.3\Library\PackageCache\com.unity.xr.oculus@3.2.3\Runtime\OculusLoader.cs:296 
+  at Unity.XR.Oculus.OculusLoader.EditorLoadOVRPlugin () [0x0007b] in D:\unity_z\Basic-XR-InteractionToolkit-Setup\2023Basic_XRITK_V2.3\Library\PackageCache\com.unity.xr.oculus@3.2.3\Runtime\OculusLoader.cs:281 
+  at (wrapper managed-to-native) System.Reflection.RuntimeMethodInfo.InternalInvoke(System.Reflection.RuntimeMethodInfo,object,object[],System.Exception&)
+  at System.Reflection.RuntimeMethodInfo.Invoke (System.Object obj, System.Reflection.BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x0006a] in <88e4733ac7bc4ae1b496735e6b83bbd3>:0 
+   --- End of inner exception stack trace ---
+  at System.Reflection.RuntimeMethodInfo.Invoke (System.Object obj, System.Reflection.BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x00083] in <88e4733ac7bc4ae1b496735e6b83bbd3>:0 
+  at System.Reflection.MethodBase.Invoke (System.Object obj, System.Object[] parameters) [0x00000] in <88e4733ac7bc4ae1b496735e6b83bbd3>:0 
+  at UnityEditor.EditorAssemblies.ProcessInitializeOnLoadMethodAttributes () [0x000a5] in <6e08e61cfda04255b3972ba7f0515fae>:0 
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadMethodAttributes ()
+
+Mono: successfully reloaded assembly
+- Completed reload, in  1.117 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1118ms)
+		BeginReloadAssembly (131ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (5ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (31ms)
+		EndReloadAssembly (903ms)
+			LoadAssemblies (100ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (238ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (45ms)
+			SetupLoadedEditorAssemblies (449ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (19ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (74ms)
+				ProcessInitializeOnLoadAttributes (259ms)
+				ProcessInitializeOnLoadMethodAttributes (85ms)
+				AfterProcessingInitializeOnLoad (9ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (20ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 4.56 ms, found 13 plugins.
+Preloading 1 native plugins for Editor in 0.06 ms.
+Unloading 6053 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 54 unused Assets / (0.7 MB). Loaded Objects now: 6778.
+Memory consumption went from 257.3 MB to 256.6 MB.
+Total: 3.240400 ms (FindLiveObjects: 0.413200 ms CreateObjectMapping: 0.242000 ms MarkObjects: 2.302700 ms  DeleteObjects: 0.281500 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.007257 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file data-000001DD73042660 doesn't match image D:\unity_z\Basic-XR-InteractionToolkit-Setup\2023Basic_XRITK_V2.3\Library\ScriptAssemblies\Unity.InputSystem.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001DD4E0BC030 doesn't match image D:\unity_z\Basic-XR-InteractionToolkit-Setup\2023Basic_XRITK_V2.3\Library\ScriptAssemblies\Unity.XR.CoreUtils.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001DD4D327020 doesn't match image D:\unity_z\Basic-XR-InteractionToolkit-Setup\2023Basic_XRITK_V2.3\Library\ScriptAssemblies\Unity.XR.Interaction.Toolkit.Samples.StarterAssets.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001DD736DFDF0 doesn't match image D:\unity_z\Basic-XR-InteractionToolkit-Setup\2023Basic_XRITK_V2.3\Library\ScriptAssemblies\Unity.InputSystem.TestFramework.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001DD736EE300 doesn't match image D:\unity_z\Basic-XR-InteractionToolkit-Setup\2023Basic_XRITK_V2.3\Library\ScriptAssemblies\Unity.VisualScripting.Flow.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001DD4E9FF020 doesn't match image D:\unity_z\Basic-XR-InteractionToolkit-Setup\2023Basic_XRITK_V2.3\Library\ScriptAssemblies\Unity.XR.Hands.Samples.VisualizerSample.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001DD50C48020 doesn't match image D:\unity_z\Basic-XR-InteractionToolkit-Setup\2023Basic_XRITK_V2.3\Library\ScriptAssemblies\Unity.XR.Interaction.Toolkit.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001DD4E9FF020 doesn't match image D:\unity_z\Basic-XR-InteractionToolkit-Setup\2023Basic_XRITK_V2.3\Library\ScriptAssemblies\Unity.XR.OpenXR.Features.MockRuntime.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001DD4B8BF020 doesn't match image D:\unity_z\Basic-XR-InteractionToolkit-Setup\2023Basic_XRITK_V2.3\Library\ScriptAssemblies\Unity.RenderPipelines.Core.Runtime.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001DD52977E60 doesn't match image D:\unity_z\Basic-XR-InteractionToolkit-Setup\2023Basic_XRITK_V2.3\Library\ScriptAssemblies\Unity.VisualScripting.Flow.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001DDB6C8AE50 doesn't match image D:\unity_z\Basic-XR-InteractionToolkit-Setup\2023Basic_XRITK_V2.3\Library\ScriptAssemblies\Unity.VisualScripting.Core.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001DD73AA7020 doesn't match image D:\unity_z\Basic-XR-InteractionToolkit-Setup\2023Basic_XRITK_V2.3\Library\ScriptAssemblies\Unity.XR.OpenXR.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001DD73309630 doesn't match image D:\unity_z\Basic-XR-InteractionToolkit-Setup\2023Basic_XRITK_V2.3\Library\ScriptAssemblies\Unity.XR.CoreUtils.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001DD4E9B9050 doesn't match image D:\unity_z\Basic-XR-InteractionToolkit-Setup\2023Basic_XRITK_V2.3\Library\ScriptAssemblies\UnityEditor.XR.LegacyInputHelpers.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001DD73E12020 doesn't match image D:\unity_z\Basic-XR-InteractionToolkit-Setup\2023Basic_XRITK_V2.3\Library\ScriptAssemblies\Unity.XR.OpenXR.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001DD523F0010 doesn't match image D:\unity_z\Basic-XR-InteractionToolkit-Setup\2023Basic_XRITK_V2.3\Library\ScriptAssemblies\Unity.XR.Interaction.Toolkit.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file LoadedFromMemory doesn't match image D:\unity_z\Basic-XR-InteractionToolkit-Setup\2023Basic_XRITK_V2.3\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Symbol file LoadedFromMemory doesn't match image D:\unity_z\Basic-XR-InteractionToolkit-Setup\2023Basic_XRITK_V2.3\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Refreshing native plugins compatible for Editor in 1.14 ms, found 13 plugins.
+Preloading 1 native plugins for Editor in 0.08 ms.
+System.Reflection.TargetInvocationException: Exception has been thrown by the target of an invocation. ---> System.NullReferenceException: Object reference not set to an instance of an object
+  at Unity.XR.Oculus.OculusLoader.AssetPathToAbsolutePath (System.String assetPath) [0x0003d] in D:\unity_z\Basic-XR-InteractionToolkit-Setup\2023Basic_XRITK_V2.3\Library\PackageCache\com.unity.xr.oculus@3.2.3\Runtime\OculusLoader.cs:296 
+  at Unity.XR.Oculus.OculusLoader.EditorLoadOVRPlugin () [0x0007b] in D:\unity_z\Basic-XR-InteractionToolkit-Setup\2023Basic_XRITK_V2.3\Library\PackageCache\com.unity.xr.oculus@3.2.3\Runtime\OculusLoader.cs:281 
+  at (wrapper managed-to-native) System.Reflection.RuntimeMethodInfo.InternalInvoke(System.Reflection.RuntimeMethodInfo,object,object[],System.Exception&)
+  at System.Reflection.RuntimeMethodInfo.Invoke (System.Object obj, System.Reflection.BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x0006a] in <88e4733ac7bc4ae1b496735e6b83bbd3>:0 
+   --- End of inner exception stack trace ---
+  at System.Reflection.RuntimeMethodInfo.Invoke (System.Object obj, System.Reflection.BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x00083] in <88e4733ac7bc4ae1b496735e6b83bbd3>:0 
+  at System.Reflection.MethodBase.Invoke (System.Object obj, System.Object[] parameters) [0x00000] in <88e4733ac7bc4ae1b496735e6b83bbd3>:0 
+  at UnityEditor.EditorAssemblies.ProcessInitializeOnLoadMethodAttributes () [0x000a5] in <6e08e61cfda04255b3972ba7f0515fae>:0 
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadMethodAttributes ()
+
+Mono: successfully reloaded assembly
+- Completed reload, in  1.195 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1196ms)
+		BeginReloadAssembly (176ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (8ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (56ms)
+		EndReloadAssembly (933ms)
+			LoadAssemblies (115ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (266ms)
+			ReleaseScriptCaches (3ms)
+			RebuildScriptCaches (41ms)
+			SetupLoadedEditorAssemblies (435ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (17ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (69ms)
+				ProcessInitializeOnLoadAttributes (257ms)
+				ProcessInitializeOnLoadMethodAttributes (82ms)
+				AfterProcessingInitializeOnLoad (7ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (18ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 4.58 ms, found 13 plugins.
+Preloading 1 native plugins for Editor in 0.04 ms.
+Unloading 6053 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 54 unused Assets / (0.7 MB). Loaded Objects now: 6783.
+Memory consumption went from 257.3 MB to 256.6 MB.
+Total: 3.376100 ms (FindLiveObjects: 0.346500 ms CreateObjectMapping: 0.219200 ms MarkObjects: 2.539100 ms  DeleteObjects: 0.269900 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.008368 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file data-000001DD73042660 doesn't match image D:\unity_z\Basic-XR-InteractionToolkit-Setup\2023Basic_XRITK_V2.3\Library\ScriptAssemblies\Unity.InputSystem.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001DD4E0BC030 doesn't match image D:\unity_z\Basic-XR-InteractionToolkit-Setup\2023Basic_XRITK_V2.3\Library\ScriptAssemblies\Unity.XR.CoreUtils.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001DD4716FEA0 doesn't match image D:\unity_z\Basic-XR-InteractionToolkit-Setup\2023Basic_XRITK_V2.3\Library\ScriptAssemblies\Unity.XR.Interaction.Toolkit.Samples.StarterAssets.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001DD51D5B860 doesn't match image D:\unity_z\Basic-XR-InteractionToolkit-Setup\2023Basic_XRITK_V2.3\Library\ScriptAssemblies\Unity.InputSystem.TestFramework.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001DD4B0C5010 doesn't match image D:\unity_z\Basic-XR-InteractionToolkit-Setup\2023Basic_XRITK_V2.3\Library\ScriptAssemblies\Unity.VisualScripting.Flow.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001DD4E9FF020 doesn't match image D:\unity_z\Basic-XR-InteractionToolkit-Setup\2023Basic_XRITK_V2.3\Library\ScriptAssemblies\Unity.XR.Hands.Samples.VisualizerSample.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001DD50C48020 doesn't match image D:\unity_z\Basic-XR-InteractionToolkit-Setup\2023Basic_XRITK_V2.3\Library\ScriptAssemblies\Unity.XR.Interaction.Toolkit.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001DD4E9FF020 doesn't match image D:\unity_z\Basic-XR-InteractionToolkit-Setup\2023Basic_XRITK_V2.3\Library\ScriptAssemblies\Unity.XR.OpenXR.Features.MockRuntime.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001DDBC1EE010 doesn't match image D:\unity_z\Basic-XR-InteractionToolkit-Setup\2023Basic_XRITK_V2.3\Library\ScriptAssemblies\Unity.RenderPipelines.Core.Runtime.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001DDB7653020 doesn't match image D:\unity_z\Basic-XR-InteractionToolkit-Setup\2023Basic_XRITK_V2.3\Library\ScriptAssemblies\Unity.VisualScripting.Flow.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001DDB620A010 doesn't match image D:\unity_z\Basic-XR-InteractionToolkit-Setup\2023Basic_XRITK_V2.3\Library\ScriptAssemblies\Unity.VisualScripting.Core.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001DD73191020 doesn't match image D:\unity_z\Basic-XR-InteractionToolkit-Setup\2023Basic_XRITK_V2.3\Library\ScriptAssemblies\Unity.XR.OpenXR.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001DD73309630 doesn't match image D:\unity_z\Basic-XR-InteractionToolkit-Setup\2023Basic_XRITK_V2.3\Library\ScriptAssemblies\Unity.XR.CoreUtils.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001DD4E9B9050 doesn't match image D:\unity_z\Basic-XR-InteractionToolkit-Setup\2023Basic_XRITK_V2.3\Library\ScriptAssemblies\UnityEditor.XR.LegacyInputHelpers.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001DD73191020 doesn't match image D:\unity_z\Basic-XR-InteractionToolkit-Setup\2023Basic_XRITK_V2.3\Library\ScriptAssemblies\Unity.XR.OpenXR.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001DD51977020 doesn't match image D:\unity_z\Basic-XR-InteractionToolkit-Setup\2023Basic_XRITK_V2.3\Library\ScriptAssemblies\Unity.XR.Interaction.Toolkit.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file LoadedFromMemory doesn't match image D:\unity_z\Basic-XR-InteractionToolkit-Setup\2023Basic_XRITK_V2.3\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Symbol file LoadedFromMemory doesn't match image D:\unity_z\Basic-XR-InteractionToolkit-Setup\2023Basic_XRITK_V2.3\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Refreshing native plugins compatible for Editor in 1.03 ms, found 13 plugins.
+Preloading 1 native plugins for Editor in 0.06 ms.
+System.Reflection.TargetInvocationException: Exception has been thrown by the target of an invocation. ---> System.NullReferenceException: Object reference not set to an instance of an object
+  at Unity.XR.Oculus.OculusLoader.AssetPathToAbsolutePath (System.String assetPath) [0x0003d] in D:\unity_z\Basic-XR-InteractionToolkit-Setup\2023Basic_XRITK_V2.3\Library\PackageCache\com.unity.xr.oculus@3.2.3\Runtime\OculusLoader.cs:296 
+  at Unity.XR.Oculus.OculusLoader.EditorLoadOVRPlugin () [0x0007b] in D:\unity_z\Basic-XR-InteractionToolkit-Setup\2023Basic_XRITK_V2.3\Library\PackageCache\com.unity.xr.oculus@3.2.3\Runtime\OculusLoader.cs:281 
+  at (wrapper managed-to-native) System.Reflection.RuntimeMethodInfo.InternalInvoke(System.Reflection.RuntimeMethodInfo,object,object[],System.Exception&)
+  at System.Reflection.RuntimeMethodInfo.Invoke (System.Object obj, System.Reflection.BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x0006a] in <88e4733ac7bc4ae1b496735e6b83bbd3>:0 
+   --- End of inner exception stack trace ---
+  at System.Reflection.RuntimeMethodInfo.Invoke (System.Object obj, System.Reflection.BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x00083] in <88e4733ac7bc4ae1b496735e6b83bbd3>:0 
+  at System.Reflection.MethodBase.Invoke (System.Object obj, System.Object[] parameters) [0x00000] in <88e4733ac7bc4ae1b496735e6b83bbd3>:0 
+  at UnityEditor.EditorAssemblies.ProcessInitializeOnLoadMethodAttributes () [0x000a5] in <6e08e61cfda04255b3972ba7f0515fae>:0 
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadMethodAttributes ()
+
+Mono: successfully reloaded assembly
+- Completed reload, in  1.086 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1087ms)
+		BeginReloadAssembly (131ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (4ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (37ms)
+		EndReloadAssembly (861ms)
+			LoadAssemblies (93ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (239ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (43ms)
+			SetupLoadedEditorAssemblies (401ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (17ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (70ms)
+				ProcessInitializeOnLoadAttributes (226ms)
+				ProcessInitializeOnLoadMethodAttributes (80ms)
+				AfterProcessingInitializeOnLoad (7ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (16ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 4.57 ms, found 13 plugins.
+Preloading 1 native plugins for Editor in 0.04 ms.
+Unloading 6053 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 54 unused Assets / (0.7 MB). Loaded Objects now: 6788.
+Memory consumption went from 257.3 MB to 256.6 MB.
+Total: 3.605500 ms (FindLiveObjects: 0.449900 ms CreateObjectMapping: 0.259900 ms MarkObjects: 2.497800 ms  DeleteObjects: 0.397100 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 

@@ -395,6 +395,8 @@
 -r:"Library/Bee/artifacts/1900b0aE.dag/UnityEngine.UI.ref.dll"
 -r:"Library/Bee/artifacts/1900b0aE.dag/UnityEngine.XR.LegacyInputHelpers.ref.dll"
 "Assets/polyperfect/Low Poly Animated People/- Materials/Simple Water/SimpleWater.cs"
+"Assets/Scripts/FindManager.cs"
+"Assets/Scripts/HandsAndControllersManagerV2.cs"
 "Assets/Scripts/HTCViveControllerMod.cs"
 "Assets/Scripts/HTCViveTrackerProfile.cs"
 "Assets/TutorialInfo/Scripts/Readme.cs"
