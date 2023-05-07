@@ -99,7 +99,10 @@ namespace UnityEngine.XR.Interaction.Toolkit.Samples.Hands
             }
 
             if (m_HandSubsystem != null)
+            {
                 m_HandSubsystem.trackingAcquired += OnHandTrackingAcquired;
+            }
+                
 #else
             Debug.LogWarning("Script requires XR Hands (com.unity.xr.hands) package to switch to hand tracking groups. Install using Window > Package Manager or click Fix on the related issue in Edit > Project Settings > XR Plug-in Management > Project Validation.", this);
 #endif
@@ -134,7 +137,19 @@ namespace UnityEngine.XR.Interaction.Toolkit.Samples.Hands
             SafeSetActive(m_LeftHand, mode == Mode.TrackedHand);
             SafeSetActive(m_LeftController, mode == Mode.MotionController);
             m_LeftMode = mode;
-            //m_VRIK.solver.leftArm.target = motionControllerPosL;
+
+            Debug.Log(mode + " L");
+
+            if (mode == Mode.MotionController)
+            {
+                m_VRIK.solver.leftArm.target = motionControllerPosL;
+            }
+            else// if (mode == Mode.TrackedHand)
+            {
+                m_VRIK.solver.leftArm.target = TrackedHandPosL;
+            }
+
+            Debug.Log(m_VRIK.solver.leftArm.target);
         }
 
         void SetRightMode(Mode mode)
@@ -142,7 +157,19 @@ namespace UnityEngine.XR.Interaction.Toolkit.Samples.Hands
             SafeSetActive(m_RightHand, mode == Mode.TrackedHand);
             SafeSetActive(m_RightController, mode == Mode.MotionController);
             m_RightMode = mode;
-            //m_VRIK.solver.leftArm.target = motionControllerPosR;
+
+            Debug.Log(mode + " R");
+
+            if (mode == Mode.MotionController)
+            {
+                m_VRIK.solver.rightArm.target = motionControllerPosR;
+            }
+            else// if (mode == Mode.TrackedHand)
+            {
+                m_VRIK.solver.rightArm.target = TrackedHandPosR;
+            }
+
+            Debug.Log(m_VRIK.solver.rightArm.target);
         }
 
         static void SafeSetActive(GameObject gameObject, bool active)

@@ -458,7 +458,6 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 5956430336693339812}
-  - component: {fileID: 143118148913393031}
   m_Layer: 0
   m_Name: Wrist_L(HT)
   m_TagString: Untagged
@@ -487,20 +486,6 @@ Transform:
   m_Father: {fileID: 3055057544180430187}
   m_RootOrder: 6
   m_LocalEulerAnglesHint: {x: 190.553, y: -103.78699, z: 0.23399353}
---- !u!114 &143118148913393031
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2105050345916229475}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ac4e11b9899b6a74bb98668171b3acbf, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  isLeft: 1
-  isRight: 0
 --- !u!1 &2211780070603950327
 GameObject:
   m_ObjectHideFlags: 0
@@ -638,7 +623,6 @@ GameObject:
   m_Component:
   - component: {fileID: 3296393745867872735}
   - component: {fileID: 7146524428266194685}
-  - component: {fileID: 2640676606982555470}
   m_Layer: 0
   m_Name: LeftHand
   m_TagString: Untagged
@@ -740,20 +724,6 @@ SkinnedMeshRenderer:
     m_Center: {x: 0.008882426, y: -0.016739514, z: 0.0781125}
     m_Extent: {x: 0.08261519, y: 0.056081634, z: 0.10162346}
   m_DirtyAABB: 0
---- !u!114 &2640676606982555470
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 4529472506293540290}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ac4e11b9899b6a74bb98668171b3acbf, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  isLeft: 0
-  isRight: 0
 --- !u!1 &5051544162070137081
 GameObject:
   m_ObjectHideFlags: 0

@@ -8,9 +8,12 @@ EditorBuildSettings:
   - enabled: 0
     path: 
     guid: 00000000000000000000000000000000
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/Trackers2.unity
     guid: a622fcc03c3f2e74187d8366292b3e54
+  - enabled: 1
+    path: Assets/Scenes/Hand Tracking Test.unity
+    guid: 011762611bdf3d6458ec9c24a40f3a98
   m_configObjects:
     Unity.XR.Oculus.Settings: {fileID: 11400000, guid: 418839f37e01d4642a5dfabcd00ad835,
       type: 2}
