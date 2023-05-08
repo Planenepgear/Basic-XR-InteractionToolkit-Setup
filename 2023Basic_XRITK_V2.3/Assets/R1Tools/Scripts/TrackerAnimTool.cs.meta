@@ -1,0 +1,20 @@
+fileFormatVersion: 2
+guid: bc3d3643dbf96e5419bdf97f882cc9d8
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences:
+  - calibrateScript: {fileID: 408306535, guid: 42835e4adb0d9a545b1868d3da780f7c, type: 3}
+  - trackerBallPrefab: {fileID: 1530114681199579904, guid: d9cd3ab564d0d3c40997e847569378e9,
+      type: 3}
+  - trackerPrefab: {fileID: 1530114681199579904, guid: 7e9b49c93adbda1438438948b0f31374,
+      type: 3}
+  - fingerScript: {fileID: 8042573370996068039, guid: 42835e4adb0d9a545b1868d3da780f7c,
+      type: 3}
+  - characterRoot: {instanceID: 0}
+  - vrikScript: {instanceID: 0}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

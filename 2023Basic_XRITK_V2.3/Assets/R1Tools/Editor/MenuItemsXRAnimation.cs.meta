@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 8995b44806138214b9555d2d2055a5f4
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences:
+  - XrRigPrefab: {fileID: 4435750644562776552, guid: 42835e4adb0d9a545b1868d3da780f7c,
+      type: 3}
+  - R1ToolsGizmos: {fileID: 5716403895538353763, guid: 2b042b3fd44e6f648b05621d5276ca03,
+      type: 3}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

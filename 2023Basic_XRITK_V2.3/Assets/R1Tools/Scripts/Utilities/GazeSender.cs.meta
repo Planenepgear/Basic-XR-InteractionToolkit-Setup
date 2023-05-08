@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: b86b0cfb01befe144b1c575c190c8bbb
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences:
+  - m_camera: {instanceID: 0}
+  - pointDetector: {instanceID: 0}
+  - progressMaterial: {fileID: 2100000, guid: 677f3c2251c39a54b8a1fec2b538f18b, type: 2}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
