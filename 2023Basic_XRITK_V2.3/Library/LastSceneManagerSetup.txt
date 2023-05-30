@@ -1,5 +1,5 @@
 sceneSetups:
-- path: Assets/Scenes/Hand Tracking Test.unity
+- path: Assets/Scenes/Avatar Function Customization1.unity
   isLoaded: 1
   isActive: 1
   isSubScene: 0
